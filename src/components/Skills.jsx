@@ -24,7 +24,7 @@ const logos = [
 
 function Skills() {
 	return (
-		<div className="md:px-36 lg:py-36 xl:py-20 py-14 w-full h-full">
+		<div className="md:px-10 lg:py-36 xl:py-20 py-14 w-full h-full">
 			<div className="grid lg:grid-cols-2 md:p-10 md:bg-black/5 rounded-xl">
 				<h1 className="text-emerald-200 capitalize text-3xl md:text-5xl w-fit">
 					<span className="text-xl md:text-3xl block md:mr-0 mr-2">
@@ -32,7 +32,7 @@ function Skills() {
 					</span>
 					<span className="text-4xl md:text-6xl block font-black">i learned!</span>
 				</h1>
-				<div className="w-full rounded-xl md:p-10 py-10 mt-5 md:mt-0 md:bg-black/5 ">
+				<div className="w-full rounded-xl md:p-10 py-10 mt-5 lg:mt-0 md:bg-black/5 ">
 					<div className="grid md:grid-cols-4 grid-cols-3 gap-5 place-items-center max-w-sm flex-none">
 						{logos &&
 							logos.length > 0 &&

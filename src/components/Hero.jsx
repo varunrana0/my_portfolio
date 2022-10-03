@@ -1,6 +1,6 @@
 function Hero() {
 	return (
-		<div className="container mx-auto md:px-36 lg:py-36 xl:py-28 py-24 w-full h-full">
+		<div className="container mx-auto md:px-10 lg:py-36 xl:py-28 py-24 w-full h-full">
 			<h2 className="text-base text-emerald-200 tracking-wide">
 				<span className="capitalize tracking-wide">hi,</span> 👋 my name is
 			</h2>

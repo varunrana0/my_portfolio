@@ -4,7 +4,7 @@ import Socials from "./Socials";
 
 function About() {
 	return (
-		<div className="md:px-36 lg:py-36 xl:py-20 py-14 w-full h-full">
+		<div className="md:px-14 lg:py-36 xl:py-20 py-14 w-full h-full">
 			<h1 className="text-emerald-100 capitalize font-bold text-xl mb-10 w-fit flex items-center">
 				<span>about</span>
 				<span className="border-b-2 border-emerald-600 ml-2">me</span>
@@ -25,7 +25,7 @@ function About() {
 				</span>
 			</h1>
 
-			<div className="grid md:grid-cols-2 gap-10 md:gap-4 h-full w-full place-items-center">
+			<div className="grid lg:grid-cols-2 gap-10 lg:gap-4 h-full w-full place-items-center">
 				<div className="h-full">
 					<p className="text-base text-gray-300 capitalize font-medium tracking-wide mb-4">
 						hello!, my name is varun rana and i am a{" "}
@@ -77,18 +77,20 @@ function About() {
 						</ul>
 					</div>
 					<div className="mt-10 w-fit">
-						<h2 className="mb-4 capitalize text-gray-200 font-black tracking-wide text-sm  ">
+						<h2 className="mb-4 capitalize text-gray-200 font-black tracking-wide text-sm">
 							find me here
 						</h2>
 						<Socials />
 					</div>
 				</div>
-				<div className="">
+				<div className="relative z-20">
+					{/* <div className="absolute rounded-xl border-2 border-emerald-600 h-full w-full -top-3 -left-3 -z-10"></div> */}
 					<img
 						src={portfolioImg}
-						className="rounded w-72 h-full md:h-96 md:w-full block"
+						className="rounded-xl w-72 h-full md:h-96 md:w-full block z-10 relative -translate-x-1 -translate-y-1"
 						alt="portfolioImage"
 					/>
+					<div className="absolute rounded-xl bg-emerald-600/40 h-full w-full top-1 left-1 -z-10"></div>
 				</div>
 			</div>
 		</div>

@@ -6,7 +6,7 @@ function Funnel() {
 			viewBox="0 0 24 24"
 			strokeWidth={1.5}
 			stroke="currentColor"
-			className="w-4 h-4 inline-block flex-none">
+			className="w-3 h-3 inline-block flex-none mt-1">
 			<path
 				strokeLinecap="round"
 				strokeLinejoin="round"
