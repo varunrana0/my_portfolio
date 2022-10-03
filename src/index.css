@@ -6,3 +6,7 @@
 	font-family: "Vary-Light";
 	src: url("../src/assets/Vary-Light.otf");
 }
+
+html {
+	scroll-behavior: smooth;
+}

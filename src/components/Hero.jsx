@@ -25,9 +25,9 @@ function Hero() {
 			</p> */}
 
 			<a
-				href="/"
-				className="py-3 px-4 border border-emerald-600 rounded capitalize drop-shadow-md shadow-inherit text-white font-black text-sm motion-safe:hover:scale-110 transition-all duration-300 ease-in-out">
-				check my projects below!
+				href={"/#projects"}
+				className="p-2 capitalize font-black text-sm md:text-lg tracking-wider before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-emerald-700/90 relative inline-block before:rounded-md">
+				<span className="relative text-white">check my projects below!</span>
 			</a>
 		</div>
 	);

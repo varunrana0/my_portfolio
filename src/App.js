@@ -1,4 +1,6 @@
 import About from "./components/About";
+import CallToAction from "./components/CallToAction";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
@@ -15,6 +17,8 @@ function App() {
 				<Skills />
 				<WorkBefore />
 				<Projects />
+				<CallToAction />
+				<Footer />
 			</div>
 		</div>
 	);

@@ -26,7 +26,7 @@ function Header() {
 						viewBox="0 0 24 24"
 						strokeWidth={1.5}
 						stroke="currentColor"
-						className="w-6 h-6 mr-2 group-hover:translate-x-1 transition-all duration-200 ease-in">
+						className="w-6 h-6 mr-2 group-hover:translate-x-1 transition-all duration-200 ease-in inline-block">
 						<path
 							strokeLinecap="round"
 							strokeLinejoin="round"

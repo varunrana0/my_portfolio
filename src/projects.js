@@ -2,6 +2,7 @@ import colorsFinder from "./assets/projects-img/findcolors.info_.png";
 import githubUserFinder from "./assets/projects-img/find-github-profile.png";
 import eliteVibes from "./assets/projects-img/elite-vibes.png";
 import pomodroTimer from "./assets/projects-img/pomodrotimer.png";
+import portfolio from "./assets/projects-img/portfolio_project.png";
 
 export const projects = [
 	{
@@ -55,16 +56,16 @@ export const projects = [
 		projectImg: pomodroTimer,
 		skills: ["ReactJs", "React-spinners", "TailwindCss", "Git", "GitHub"],
 		desc:
-			"A Simple, Effective and Easier way to find any gitHub user Repository. just enter user login name and see their repo name, when they joined github and more.",
+			"timer app with 25 minutes work schedule with a 5 minute break to get relaxed.",
 		sourceCode: "https://github.com/varun-raana/GitHub-User-Finder",
 	},
 	{
-		name: "Elite-Vibes Management Company",
-		url: "https://elite-vibes.herokuapp.com",
-		projectImg: eliteVibes,
-		skills: ["ReactJs", "React-spinners", "TailwindCss", "Git", "GitHub"],
+		name: "personal portfolio",
+		url: "https://varun-rana-portfolio.netlify.app",
+		projectImg: portfolio,
+		skills: ["ReactJs", "TailwindCss", "Git", "GitHub"],
 		desc:
-			"A Simple, Effective and Easier way to find any gitHub user Repository. just enter user login name and see their repo name, when they joined github and more.",
+			"A Simple, Effective and Easier way to get hired by the top companies is by showing them your skills as well a good portolio helps more.",
 		sourceCode: "https://github.com/varun-raana/GitHub-User-Finder",
 	},
 ];

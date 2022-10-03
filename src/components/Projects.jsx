@@ -3,7 +3,7 @@ import { projects } from "../projects";
 
 function Projects() {
 	return (
-		<div className="md:px-10 lg:py-36 xl:py-20 py-14 w-full h-full">
+		<div className="md:px-10 lg:py-36 xl:py-20 py-14 w-full h-full" id="projects">
 			<h1 className="text-emerald-100 capitalize text-xl w-fit font-semibold flex">
 				<span>my</span>
 				<span className="border-b-2 border-emerald-600 ml-2">workspace</span>
@@ -24,14 +24,14 @@ function Projects() {
 				</span>
 			</h1>
 
-			<div className="mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 h-full">
+			<div className="mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 h-full w-full">
 				{projects &&
 					projects.length > 0 &&
 					projects.map((item, index) => {
 						return (
 							<div
 								key={index}
-								className=" w-full h-full flex flex-col p-4 rounded-3xl overflow-hidden border-2 even:bg-emerald-900/10 border-emerald-600 ">
+								className=" w-full h-full flex flex-col p-4 rounded-3xl overflow-hidden border-2 even:bg-emerald-900/10 border-emerald-600 md:even:mt-10 md:odd:mt-20 md:odd:first-of-type:mt-0">
 								<div className="sm:h-56 h-48 mb-4 overflow-hidden rounded-3xl">
 									<img
 										src={item.projectImg}
@@ -76,19 +76,19 @@ function Projects() {
 										</p>
 									</div>
 									<div className="mt-5">
-										<div className="flex gap-3 mt-auto">
+										<div className="flex gap-3 mt-auto py-2 items-end justify-end">
 											<a
 												href={item.url}
 												target={"_blank"}
 												rel="noreferrer"
-												className="bg-emerald-600 py-1 px-3 tracking-wide font-black rounded-md text-[11px] capitalize text-emerald-50 inline-flex items-center justify-center motion-safe:hover:bg-emerald-700 transition-colors duration-200 ease-linear">
+												className="bg-emerald-600 py-2 px-3 tracking-wider font-black rounded-md outline-none text-sm capitalize text-emerald-50 inline-block motion-safe:hover:bg-emerald-700 transition-colors duration-200 ease-linear">
 												see live
 											</a>
 											<a
 												href={item.sourceCode}
 												target={"_blank"}
 												rel="noreferrer"
-												className=" py-1 px-3 rounded-md tracking-wide font-black text-[11px] capitalize text-emerald-50 ">
+												className=" py-2 px-3 rounded-md outline-none border-none tracking-wider font-black text-sm inline-block capitalize text-emerald-200 ">
 												codespace
 											</a>
 										</div>
