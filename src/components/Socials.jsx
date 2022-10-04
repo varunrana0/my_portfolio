@@ -14,7 +14,7 @@ function Socials() {
 				rel="noreferrer"
 				className="flex items-center md:justify-center text-sm relative text-emerald-100 font-black  group hover:text-emerald-200">
 				<span className="inline-block">
-					<span className="absolute bottom-0 left-0 bg-emerald-600 h-[1px] w-0  group-hover:w-full transition-all duration-300 ease-in"></span>
+					<span className="absolute -bottom-1 left-0 bg-emerald-600 h-[1.5px] w-0  group-hover:w-full transition-all duration-300 ease-in"></span>
 					<GitHubIcon />
 				</span>
 				<span>GitHub</span>
@@ -25,7 +25,7 @@ function Socials() {
 				rel="noreferrer"
 				className="flex items-center md:justify-center text-sm relative text-emerald-100 font-black  group hover:text-emerald-200">
 				<span className="inline-block">
-					<span className="absolute bottom-0 left-0 bg-emerald-600 h-[1px] w-0  group-hover:w-full transition-all duration-300 ease-in"></span>
+					<span className="absolute -bottom-1 left-0 bg-emerald-600 h-[1.5px] w-0  group-hover:w-full transition-all duration-300 ease-in"></span>
 					<LinkedinIcon />
 				</span>
 				<span>Linkedin</span>
@@ -34,7 +34,7 @@ function Socials() {
 				href="/"
 				className="flex items-center md:justify-center text-sm relative text-emerald-100 font-black  group hover:text-emerald-200">
 				<span className="inline-block">
-					<span className="absolute bottom-0 left-0 bg-emerald-600 h-[1px] w-0  group-hover:w-full transition-all duration-300 ease-in"></span>
+					<span className="absolute -bottom-1 left-0 bg-emerald-600 h-[1.5px] w-0  group-hover:w-full transition-all duration-300 ease-in"></span>
 					<TwitterIcon />
 				</span>
 				<span>Twitter</span>
@@ -43,7 +43,7 @@ function Socials() {
 				href="/"
 				className="flex items-center md:justify-center text-sm relative text-emerald-100 font-black  group hover:text-emerald-200">
 				<span className="inline-block">
-					<span className="absolute bottom-0 left-0 bg-emerald-600 h-[1px] w-0  group-hover:w-full transition-all duration-300 ease-in"></span>
+					<span className="absolute -bottom-1 left-0 bg-emerald-600 h-[1.5px] w-0  group-hover:w-full transition-all duration-300 ease-in"></span>
 					<InstagramIcon />
 				</span>
 				<span>Instagram</span>

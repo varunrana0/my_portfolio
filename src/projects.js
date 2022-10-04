@@ -41,6 +41,7 @@ export const projects = [
 			"TailwindCss",
 			"NodeJs",
 			"firebase",
+			"mongoDB",
 			"Express.js",
 			"TailwindCss",
 			"Git",
@@ -48,7 +49,7 @@ export const projects = [
 		],
 		desc:
 			"EliteVibes Is One Of The Most Premier Entertainment Company In Pune That Covers All Aspects Of Entertainment Such As Gaming, Live Concerts, Networking Events, Private Parties And Holistic Festival Management. Get In Touch With Us For More Details.",
-		sourceCode: "https://github.com/varun-raana/GitHub-User-Finder",
+		sourceCode: "https://github.com/varun-raana/Ellite-Vibes-React",
 	},
 	{
 		name: "pomodro timer app",
@@ -57,7 +58,7 @@ export const projects = [
 		skills: ["ReactJs", "React-spinners", "TailwindCss", "Git", "GitHub"],
 		desc:
 			"timer app with 25 minutes work schedule with a 5 minute break to get relaxed.",
-		sourceCode: "https://github.com/varun-raana/GitHub-User-Finder",
+		sourceCode: "https://github.com/varun-raana/pomodro-timer-app",
 	},
 	{
 		name: "personal portfolio",
@@ -66,6 +67,6 @@ export const projects = [
 		skills: ["ReactJs", "TailwindCss", "Git", "GitHub"],
 		desc:
 			"A Simple, Effective and Easier way to get hired by the top companies is by showing them your skills as well a good portolio helps more.",
-		sourceCode: "https://github.com/varun-raana/GitHub-User-Finder",
+		sourceCode: "https://github.com/varun-raana/my_portfolio",
 	},
 ];

@@ -5,7 +5,7 @@ function CallToAction() {
 		<div className="md:px-14 py-0 md:pt-10 pb-4 h-full mt-20">
 			<div className="flex md:flex-row flex-col gap-3 justify-between md:items-end w-full h-full">
 				<h1 className="w-fit">
-					<span className="block capitalize tracking-wider text-5xl text-emerald-50 font-semibold">
+					<span className="block capitalize tracking-wider text-5xl text-emerald-50 font-[900]">
 						let's
 					</span>
 					<span className="block capitalize tracking-wider text-xl text-emerald-500 font-black">

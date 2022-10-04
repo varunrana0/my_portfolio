@@ -31,7 +31,7 @@ function Projects() {
 						return (
 							<div
 								key={index}
-								className=" w-full h-full flex flex-col p-4 rounded-3xl overflow-hidden border-2 even:bg-emerald-900/10 border-emerald-600 md:even:mt-10 md:odd:mt-20 md:odd:first-of-type:mt-0">
+								className=" w-full h-full flex flex-col p-4 pb-0 rounded-3xl overflow-hidden border-2 even:bg-emerald-900/10 border-emerald-600 md:even:mt-10 md:odd:mt-20 md:odd:first-of-type:mt-0 motion-safe:hover:bg-emerald-900/5 transition-colors duration-300 ease-in">
 								<div className="sm:h-56 h-48 mb-4 overflow-hidden rounded-3xl">
 									<img
 										src={item.projectImg}
@@ -59,7 +59,7 @@ function Projects() {
 													return (
 														<span
 															key={index}
-															className="border-2 border-emerald-700 py-1 px-2 text-xs rounded-xl text-emerald-100 cursor-pointer hover:bg-emerald-900/10 transition-all duration-200 tracking-wide capitalize">
+															className="border-2 border-emerald-700 py-1 px-2 text-xs rounded-xl text-emerald-100 cursor-pointer hover:bg-emerald-900/20 transition-all duration-200 tracking-wide capitalize">
 															{item}
 														</span>
 													);
@@ -67,16 +67,16 @@ function Projects() {
 										</div>
 									</div>
 									<div className="mt-5">
-										<h5 className="text-[11px] tracking-wider mb-1 text-emerald-50 font-semibold capitalize py-1 px-2 bg-emerald-600 inline-block rounded-xl">
+										<h5 className="text-[11px] tracking-wider mb-2 text-emerald-50 font-semibold capitalize py-1 px-2 bg-emerald-600 inline-block rounded-xl">
 											what it's about
 										</h5>
 
-										<p className="text-xs text-gray-300 capitalize font-semibold tracking-wider">
+										<p className="text-xs md:text-base text-gray-300 capitalize font-semibold tracking-wider">
 											{item.desc}
 										</p>
 									</div>
-									<div className="mt-5">
-										<div className="flex gap-3 mt-auto py-2 items-end justify-end">
+									<div className="mt-5 border-t-2 py-4 border-emerald-900/30">
+										<div className="flex gap-3 mt-auto items-end justify-end">
 											<a
 												href={item.url}
 												target={"_blank"}

@@ -38,46 +38,45 @@ function About() {
 						started back in 2020.
 					</p>
 					<p className="mt-3 text-base text-gray-300 capitalize font-medium tracking-wide mb-4">
-						i recently completed my internship period of 6 months with{" "}
+						i have recently completed my web development internship with{" "}
 						<a
 							href="http://botmaticsolution.com"
 							target={"_blank"}
 							rel="noreferrer"
 							className="text-emerald-600 font-black relative group">
 							Botmatic Soutions pvt ltd.
-							<span className="absolute bottom-0 left-0 bg-emerald-600 h-[1px] w-0  group-hover:w-full transition-all duration-300 ease-in"></span>
 						</a>
 						&nbsp;pune, maharashtra.
 					</p>
 					<div>
 						<strong className="text-emerald-100 capitalize tracking-wider text-sm mb-3 inline-block">
-							here are some of the recent technologies i'm working with:
+							here are some of the technologies i'm recently working with:
 						</strong>
 						<ul className="grid grid-cols-2 mt-2 list-none gap-4">
 							<li
 								className="w-fit transition-all duration-500 ease-in text-sm capitalize  font-semibold tracking-wider
-												before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-emerald-600 relative inline-block">
+												before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-emerald-600 before:rounded-md py-1 px-2 relative inline-block">
 								<span className="relative text-white">javascript</span>
 							</li>
 							<li
 								className="w-fit transition-all duration-500 ease-in text-sm capitalize font-semibold tracking-wider
-												before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-emerald-600 relative inline-block">
-								<span className="relative text-white">React</span>
+												before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-emerald-600 before:rounded-md py-1 px-2 relative inline-block">
+								<span className="relative text-white">React.js</span>
 							</li>
 							<li
 								className="w-fit transition-all duration-500 ease-in text-sm capitalize font-semibold tracking-wider
-												before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-emerald-600 relative inline-block">
-								<span className="relative text-white">node.js</span>
+												before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-emerald-600 before:rounded-md py-1 px-2 relative inline-block">
+								<span className="relative text-white">Node.js</span>
 							</li>
 							<li
 								className="w-fit transition-all duration-500 ease-in text-sm capitalize font-semibold tracking-wider
-												before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-emerald-600 relative inline-block">
-								<span className="relative text-white">tailwindcss</span>
+												before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-emerald-600 before:rounded-md py-1 px-2 relative inline-block">
+								<span className="relative text-white">tailwindCss</span>
 							</li>
 						</ul>
 					</div>
 					<div className="mt-10 w-fit">
-						<h2 className="mb-4 capitalize text-gray-200 font-black tracking-wide text-sm">
+						<h2 className="mb-4 capitalize text-gray-200 font-black tracking-wider text-sm">
 							find me here
 						</h2>
 						<Socials />
