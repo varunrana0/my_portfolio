@@ -3,6 +3,8 @@ import githubUserFinder from "./assets/projects-img/find-github-profile.png";
 import eliteVibes from "./assets/projects-img/elite-vibes.png";
 import pomodroTimer from "./assets/projects-img/pomodrotimer.png";
 import portfolio from "./assets/projects-img/portfolio_project.png";
+import portfolioOne from "./assets/projects-img/portfolio.png";
+import onboardingSteps from "./assets/projects-img/onBoarding.png";
 
 export const projects = [
 	{
@@ -40,6 +42,7 @@ export const projects = [
 			"React-spinners",
 			"TailwindCss",
 			"NodeJs",
+			"react-router",
 			"firebase",
 			"mongoDB",
 			"Express.js",
@@ -55,18 +58,43 @@ export const projects = [
 		name: "pomodro timer app",
 		url: "https://pomodrotimer.netlify.app",
 		projectImg: pomodroTimer,
-		skills: ["ReactJs", "React-spinners", "TailwindCss", "Git", "GitHub"],
+		skills: [
+			"ReactJs",
+			"React-spinners",
+			"react-router",
+			"firebase",
+			"TailwindCss",
+			"Git",
+			"GitHub",
+		],
 		desc:
 			"timer app with 25 minutes work schedule with a 5 minute break to get relaxed.",
 		sourceCode: "https://github.com/varun-raana/pomodro-timer-app",
 	},
 	{
-		name: "personal portfolio",
+		name: "portfolio one",
+		url: "https://varun-rana.netlify.app",
+		projectImg: portfolioOne,
+		skills: ["ReactJs", "TailwindCss", "react-router", "Git", "GitHub"],
+		desc:
+			"A Simple, Effective and Easier way to get hired by the top companies is by showing them your skills as well a good portolio helps more.",
+		sourceCode: "https://github.com/varun-raana/PortFolio-Website",
+	},
+	{
+		name: "portfolio two",
 		url: "https://varun-rana-portfolio.netlify.app",
 		projectImg: portfolio,
 		skills: ["ReactJs", "TailwindCss", "Git", "GitHub"],
 		desc:
 			"A Simple, Effective and Easier way to get hired by the top companies is by showing them your skills as well a good portolio helps more.",
 		sourceCode: "https://github.com/varun-raana/my_portfolio",
+	},
+	{
+		name: "onboarding steps form",
+		url: "https://onboarding-steps-form.netlify.app/",
+		projectImg: onboardingSteps,
+		skills: ["ReactJs", "TailwindCss", "Git", "GitHub"],
+		desc: "Build workspace with this cool multi steps form with some animations.",
+		sourceCode: "https://github.com/varun-raana/OnBoarding_Steps_Form",
 	},
 ];

@@ -24,14 +24,14 @@ function Projects() {
 				</span>
 			</h1>
 
-			<div className="mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 h-full w-full">
+			<div className="mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 last-of-type:row-span-10 gap-4 w-full">
 				{projects &&
 					projects.length > 0 &&
 					projects.map((item, index) => {
 						return (
 							<div
 								key={index}
-								className=" w-full h-full flex flex-col p-4 pb-0 rounded-3xl overflow-hidden border-2 even:bg-emerald-900/10 border-emerald-600 md:even:mt-10 md:odd:mt-20 md:odd:first-of-type:mt-0 motion-safe:hover:bg-emerald-900/5 transition-colors duration-300 ease-in">
+								className="w-full h-full flex flex-col p-4 pb-0 rounded-3xl overflow-hidden border-2 cursor-text border-emerald-600">
 								<div className="sm:h-56 h-48 mb-4 overflow-hidden rounded-3xl">
 									<img
 										src={item.projectImg}
@@ -44,12 +44,12 @@ function Projects() {
 										href={item.url}
 										target={"_blank"}
 										rel="noreferrer"
-										className="flex font-black tracking-wide text-sm md:text-lg text-emerald-50 capitalize motion-safe:hover:text-emerald-200 motion-safe:hover:tracking-wider transition-all duration-500 ease-in ">
+										className="inline-block font-black tracking-wide text-lg md:text-2xl my-4 text-emerald-50 capitalize motion-safe:hover:text-emerald-200 motion-safe:hover:tracking-wider transition-all duration-500 ease-in ">
 										{item.name}
 									</a>
 
 									<div className="mt-4">
-										<h5 className="text-[11px] tracking-wider mb-2 text-emerald-50 font-semibold capitalize py-1 px-2 bg-emerald-600 inline-block rounded-xl">
+										<h5 className="text-xs tracking-wider mb-2 text-emerald-50 font-semibold capitalize py-1 px-2 bg-emerald-600 inline-block rounded-xl">
 											skills i've used
 										</h5>
 										<div className="flex flex-wrap gap-2">
@@ -59,7 +59,7 @@ function Projects() {
 													return (
 														<span
 															key={index}
-															className="border-2 border-emerald-700 py-1 px-2 text-xs rounded-xl text-emerald-100 cursor-pointer hover:bg-emerald-900/20 transition-all duration-200 tracking-wide capitalize">
+															className="border-2 border-emerald-700 py-2 px-3 text-xs rounded-xl text-emerald-100 cursor-pointer hover:bg-emerald-900/20 transition-all duration-200 tracking-wider capitalize">
 															{item}
 														</span>
 													);
@@ -67,7 +67,7 @@ function Projects() {
 										</div>
 									</div>
 									<div className="mt-5">
-										<h5 className="text-[11px] tracking-wider mb-2 text-emerald-50 font-semibold capitalize py-1 px-2 bg-emerald-600 inline-block rounded-xl">
+										<h5 className="text-xs tracking-wider mb-2 text-emerald-50 font-semibold capitalize py-1 px-2 bg-emerald-600 inline-block rounded-xl">
 											what it's about
 										</h5>
 

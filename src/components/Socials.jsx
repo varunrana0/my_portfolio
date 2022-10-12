@@ -31,7 +31,9 @@ function Socials() {
 				<span>Linkedin</span>
 			</a>
 			<a
-				href="/"
+				href="https://twitter.com/Varun_Ranaa"
+				target={"_blank"}
+				rel="noreferrer"
 				className="flex items-center md:justify-center text-sm relative text-emerald-100 font-black  group hover:text-emerald-200">
 				<span className="inline-block">
 					<span className="absolute -bottom-1 left-0 bg-emerald-600 h-[1.5px] w-0  group-hover:w-full transition-all duration-300 ease-in"></span>
@@ -40,7 +42,9 @@ function Socials() {
 				<span>Twitter</span>
 			</a>
 			<a
-				href="/"
+				href="https://www.instagram.com/varun8048/"
+				target={"_blank"}
+				rel="noreferrer"
 				className="flex items-center md:justify-center text-sm relative text-emerald-100 font-black  group hover:text-emerald-200">
 				<span className="inline-block">
 					<span className="absolute -bottom-1 left-0 bg-emerald-600 h-[1.5px] w-0  group-hover:w-full transition-all duration-300 ease-in"></span>
