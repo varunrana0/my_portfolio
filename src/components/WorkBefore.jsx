@@ -4,9 +4,9 @@ import Funnel from "./icons/Funnel";
 function WorkBefore() {
 	return (
 		<div className="md:px-10 lg:py-32 xl:py-16 py-14 w-full h-full">
-			<h1 className="text-emerald-100 capitalize text-xl w-fit font-semibold flex">
+			<h1 className="text-skin-light capitalize text-xl w-fit font-semibold flex">
 				<span>work</span>
-				<span className="border-b-2 border-emerald-600 ml-2"> experience</span>
+				<span className="border-b-2 border-normal ml-2"> experience</span>
 				<span>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -25,9 +25,9 @@ function WorkBefore() {
 			</h1>
 
 			<div className="mt-10">
-				<h2 className="order-2 capitalize text-emerald-500 font-semibold text-sm">
+				<h2 className="order-2 capitalize text-skin-normal font-semibold text-base">
 					<span>botmatic solutions</span>&nbsp;
-					<span className="text-[12px] text-emerald-50 px-1">
+					<span className="text-sm text-white px-1">
 						<span className="inline-block">[ jan 2022</span>
 						<span className="inline-block ml-1">—</span>
 						<span className="inline-block ml-1">july 2022 ]</span>
@@ -36,7 +36,7 @@ function WorkBefore() {
 
 				<div className="mt-3 max-w-lg ">
 					<ul className="mt-3 space-y-3 tracking-wider">
-						<div className="flex space-x-2 text-emerald-600">
+						<div className="flex space-x-2 text-skin-normal">
 							<Funnel />
 							<li className="text-sm capitalize text-gray-300 font-semibold">
 								Work with a variety of different languages, platforms, frameworks, and
@@ -44,23 +44,23 @@ function WorkBefore() {
 								and Netlify.
 							</li>
 						</div>
-						<div className="flex space-x-2 text-emerald-600">
+						<div className="flex space-x-2 text-skin-normal">
 							<Funnel />
 							<li className="text-sm capitalize text-gray-300 font-semibold">
 								built, modify and maintain nodejs APIs in expressjs.
 							</li>
 						</div>
-						<div className="flex space-x-2 text-emerald-600">
+						<div className="flex space-x-2 text-skin-normal">
 							<Funnel />
 							<li className="text-sm capitalize text-gray-300 font-semibold">
 								built application for client in react-native.
 							</li>
 						</div>
-						<div className="flex items-center space-x-2 text-emerald-600">
+						<div className="flex items-center space-x-2 text-skin-normal">
 							<Funnel />
 							<li className="text-sm capitalize text-gray-300 font-semibold">
 								state management with{" "}
-								<span className="text-emerald-600 capitalize">react</span>.
+								<span className="text-skin-normal capitalize">react</span>.
 							</li>
 						</div>
 					</ul>

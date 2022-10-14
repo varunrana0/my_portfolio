@@ -26,7 +26,7 @@ function Skills() {
 	return (
 		<div className="md:px-10 lg:py-36 xl:py-20 py-14 w-full h-full">
 			<div className="grid lg:grid-cols-2 md:p-10 md:bg-black/5 rounded-xl">
-				<h1 className="text-emerald-200 capitalize text-3xl md:text-5xl w-fit">
+				<h1 className="text-skin-extraLight capitalize text-3xl md:text-5xl w-fit">
 					<span className="text-xl md:text-3xl block md:mr-0 mr-2">
 						technologies
 					</span>
@@ -36,16 +36,14 @@ function Skills() {
 					<div className="grid md:grid-cols-4 grid-cols-3 gap-5 place-items-center max-w-sm flex-none">
 						{logos &&
 							logos.length > 0 &&
-							logos.map((item, index) => {
-								return (
-									<img
-										key={item}
-										src={item}
-										alt="logos"
-										className="w-12 group flex-none h-full cursor-pointer grayscale hover:grayscale-0 transition-colors duration-300 ease-out"
-									/>
-								);
-							})}
+							logos.map((item) => (
+								<img
+									key={item}
+									src={item}
+									alt="logos"
+									className="w-12 group flex-none h-full cursor-pointer grayscale hover:grayscale-0 transition-colors duration-300 ease-out"
+								/>
+							))}
 					</div>
 				</div>
 			</div>

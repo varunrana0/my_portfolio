@@ -5,9 +5,9 @@ import Socials from "./Socials";
 function About() {
 	return (
 		<div className="md:px-14 lg:py-36 xl:py-20 py-14 w-full h-full">
-			<h1 className="text-emerald-100 capitalize font-bold text-xl mb-10 w-fit flex items-center">
+			<h1 className="text-skin-light capitalize font-bold text-xl mb-10 w-fit flex items-center">
 				<span>about</span>
-				<span className="border-b-2 border-emerald-600 ml-2">me</span>
+				<span className="border-b-2 border-normal ml-2">me</span>
 				<span>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -29,12 +29,12 @@ function About() {
 				<div className="h-full">
 					<p className="text-base text-gray-300 capitalize font-medium tracking-wide mb-4">
 						hello!, my name is varun rana and i am a{" "}
-						<span className="text-emerald-600 font-black">
+						<span className="text-skin-normal font-black">
 							self taught full stack web developer.
 						</span>{" "}
 						i love and eager to learn new web technologies and trying to create new
 						things with them. my interest in{" "}
-						<span className="text-emerald-600 font-black">web development</span>{" "}
+						<span className="text-skin-normal font-black">web development</span>{" "}
 						started back in 2020.
 					</p>
 					<p className="mt-3 text-base text-gray-300 capitalize font-medium tracking-wide mb-4">
@@ -43,34 +43,34 @@ function About() {
 							href="http://botmaticsolution.com"
 							target={"_blank"}
 							rel="noreferrer"
-							className="text-emerald-600 font-black relative group">
+							className="text-skin-normal font-black relative group">
 							Botmatic Soutions pvt ltd.
 						</a>
 						&nbsp;pune, maharashtra.
 					</p>
 					<div>
-						<strong className="text-emerald-100 capitalize tracking-wider text-sm mb-3 inline-block">
+						<strong className="text-skin-light capitalize tracking-wider text-sm mb-3 inline-block">
 							here are some of the technologies i'm recently working with:
 						</strong>
 						<ul className="grid grid-cols-2 mt-2 list-none gap-4">
 							<li
 								className="w-fit transition-all duration-500 ease-in text-sm capitalize  font-semibold tracking-wider
-												before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-emerald-600 before:rounded-md py-1 px-2 relative inline-block">
+												before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-skin-base before:rounded-md py-1 px-2 relative inline-block">
 								<span className="relative text-white">javascript</span>
 							</li>
 							<li
 								className="w-fit transition-all duration-500 ease-in text-sm capitalize font-semibold tracking-wider
-												before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-emerald-600 before:rounded-md py-1 px-2 relative inline-block">
+												before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-skin-base before:rounded-md py-1 px-2 relative inline-block">
 								<span className="relative text-white">React.js</span>
 							</li>
 							<li
 								className="w-fit transition-all duration-500 ease-in text-sm capitalize font-semibold tracking-wider
-												before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-emerald-600 before:rounded-md py-1 px-2 relative inline-block">
+												before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-skin-base before:rounded-md py-1 px-2 relative inline-block">
 								<span className="relative text-white">Node.js</span>
 							</li>
 							<li
 								className="w-fit transition-all duration-500 ease-in text-sm capitalize font-semibold tracking-wider
-												before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-emerald-600 before:rounded-md py-1 px-2 relative inline-block">
+												before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-skin-base before:rounded-md py-1 px-2 relative inline-block">
 								<span className="relative text-white">tailwindCss</span>
 							</li>
 						</ul>
@@ -86,10 +86,10 @@ function About() {
 					{/* <div className="absolute rounded-xl border-2 border-emerald-600 h-full w-full -top-3 -left-3 -z-10"></div> */}
 					<img
 						src={portfolioImg}
-						className="rounded-xl w-72 h-full md:h-96 md:w-full block z-10 relative -translate-x-1 -translate-y-1"
+						className="rounded-xl w-72 h-full md:h-96 md:w-full block z-10 relative -translate-x-2 -translate-y-2"
 						alt="portfolioImage"
 					/>
-					<div className="absolute rounded-xl bg-emerald-600/40 h-full w-full top-1 left-1 -z-10"></div>
+					<div className="absolute rounded-xl bg-skin-base h-full w-full top-2 left-2 -z-10"></div>
 				</div>
 			</div>
 		</div>

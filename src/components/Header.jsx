@@ -18,7 +18,7 @@ function Header() {
 				href={resume}
 				rel="noreferrer"
 				target={"_blank"}
-				className="px-2 inline-flex items-center justify-center py-1 rounded text-emerald-400 hover:bg-emerald-900/40 motion-safe:hover:text-emerald-200 transition-colors duration-200 ease-in group">
+				className="px-2 inline-flex items-center justify-center py-1 rounded text-white font-semibold tracking-wider hover:bg-skin-base group">
 				<span className="inline-block">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"

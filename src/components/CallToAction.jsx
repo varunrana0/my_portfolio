@@ -5,10 +5,10 @@ function CallToAction() {
 		<div className="md:px-14 py-0 md:pt-10 pb-4 h-full mt-20">
 			<div className="flex md:flex-row flex-col gap-3 justify-between md:items-end w-full h-full">
 				<h1 className="w-fit">
-					<span className="block capitalize tracking-wider text-5xl text-emerald-50 font-[900]">
+					<span className="block capitalize tracking-wider text-5xl text-white font-black">
 						let's
 					</span>
-					<span className="block capitalize tracking-wider text-xl text-emerald-500 font-black">
+					<span className="block capitalize tracking-wider text-xl text-skin-normal font-black">
 						talk
 					</span>
 				</h1>
@@ -18,12 +18,12 @@ function CallToAction() {
 						<input
 							type="email"
 							placeholder="xyz@gmail.com"
-							className="py-2 px-4 text-sm rounded-md text-emerald-200 font-semibold tracking-wider bg-transparent border border-emerald-400 outline-none focus:outline-none"
+							className="py-2 px-4 text-sm rounded-md text-skin-light font-semibold tracking-wider bg-transparent border border-normal outline-none focus:outline-none placeholder:text-gray-100"
 							required
 						/>
 						<button
 							type="button"
-							className="py-2 px-4 text-xs rounded-md font-semibold tracking-wide bg-transparent border border-emerald-200 text-emerald-200 uppercase motion-safe:hover:bg-emerald-900/20 transition-all duration-200 ease-out">
+							className="py-2 px-4 text-xs rounded-md font-semibold tracking-wide border-none text-skin-light uppercase bg-skin-normal text-white">
 							let's talk
 						</button>
 					</div>

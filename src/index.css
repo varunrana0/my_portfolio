@@ -7,6 +7,38 @@
 	src: url("../src/assets/Vary-Light.otf");
 }
 
+@layer base {
+	:root {
+		--text-color: rgb(4 120 87);
+		--light-color: rgb(167 243 208);
+		--extraLight-color: rgb(236 253 245);
+		--normal-color: rgb(5 150 105);
+		--fill-color: rgb(4 120 87);
+		--hover-color: rgb(6 78 59 / 0.2);
+		--border-color-opacity: rgb(6 95 70 / 0.4);
+	}
+
+	.theme-teal {
+		--text-color: rgb(15 118 110);
+		--light-color: rgb(153 246 228);
+		--extraLight-color: rgb(240 253 250);
+		--normal-color: rgb(13 148 136);
+		--fill-color: rgb(15 118 110);
+		--hover-color: rgb(19 78 74 / 0.2);
+		--border-color-opacity: rgb(17 94 89 / 0.4);
+	}
+
+	.theme-pink {
+		--text-color: rgb(190 24 93);
+		--light-color: rgb(251 207 232);
+		--extraLight-color: rgb(253 242 248);
+		--normal-color: rgb(219 39 119);
+		--fill-color: rgb(190 24 93);
+		--hover-color: rgb(131 24 67 / 0.2);
+		--border-color-opacity: rgb(157 23 77 / 0.4);
+	}
+}
+
 html {
 	scroll-behavior: smooth;
 }

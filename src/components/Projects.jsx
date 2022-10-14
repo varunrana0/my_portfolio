@@ -4,9 +4,9 @@ import { projects } from "../projects";
 function Projects() {
 	return (
 		<div className="md:px-10 lg:py-36 xl:py-20 py-14 w-full h-full" id="projects">
-			<h1 className="text-emerald-100 capitalize text-xl w-fit font-semibold flex">
+			<h1 className="text-skin-light capitalize text-xl w-fit font-semibold flex">
 				<span>my</span>
-				<span className="border-b-2 border-emerald-600 ml-2">workspace</span>
+				<span className="border-b-2 border-normal ml-2">workspace</span>
 				<span>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +31,7 @@ function Projects() {
 						return (
 							<div
 								key={index}
-								className="w-full h-full flex flex-col p-4 pb-0 rounded-3xl overflow-hidden border-2 cursor-text border-emerald-600">
+								className="w-full h-full flex flex-col p-4 pb-0 rounded-3xl overflow-hidden border-2 cursor-text border-normal">
 								<div className="sm:h-56 h-48 mb-4 overflow-hidden rounded-3xl">
 									<img
 										src={item.projectImg}
@@ -44,12 +44,12 @@ function Projects() {
 										href={item.url}
 										target={"_blank"}
 										rel="noreferrer"
-										className="inline-block font-black tracking-wide text-lg md:text-2xl my-4 text-emerald-50 capitalize motion-safe:hover:text-emerald-200 motion-safe:hover:tracking-wider transition-all duration-500 ease-in ">
+										className="inline-block font-black tracking-wide text-lg md:text-2xl my-4 text-gray-300 capitalize motion-safe:hover:text-skin-extraLight motion-safe:hover:tracking-wider transition-all duration-500 ease-in ">
 										{item.name}
 									</a>
 
 									<div className="mt-4">
-										<h5 className="text-xs tracking-wider mb-2 text-emerald-50 font-semibold capitalize py-1 px-2 bg-emerald-600 inline-block rounded-xl">
+										<h5 className="text-xs tracking-wider mb-2 text-gray-300 font-semibold capitalize py-1 px-2 inline-block rounded-xl">
 											skills i've used
 										</h5>
 										<div className="flex flex-wrap gap-2">
@@ -59,7 +59,7 @@ function Projects() {
 													return (
 														<span
 															key={index}
-															className="border-2 border-emerald-700 py-2 px-3 text-xs rounded-xl text-emerald-100 cursor-pointer hover:bg-emerald-900/20 transition-all duration-200 tracking-wider capitalize">
+															className="border-2 border-normal py-2 px-3 text-xs rounded-xl text-skin-light cursor-pointer hover:bg-skin-colorHover transition-all duration-200 tracking-wider capitalize">
 															{item}
 														</span>
 													);
@@ -67,7 +67,7 @@ function Projects() {
 										</div>
 									</div>
 									<div className="mt-5">
-										<h5 className="text-xs tracking-wider mb-2 text-emerald-50 font-semibold capitalize py-1 px-2 bg-emerald-600 inline-block rounded-xl">
+										<h5 className="text-xs tracking-wider mb-2 text-gray-300 font-semibold capitalize py-1 px-2 inline-block rounded-xl">
 											what it's about
 										</h5>
 
@@ -75,20 +75,20 @@ function Projects() {
 											{item.desc}
 										</p>
 									</div>
-									<div className="mt-5 border-t-2 py-4 border-emerald-900/30">
+									<div className="mt-5 border-t-2 py-4 border-color-opacity">
 										<div className="flex gap-3 mt-auto items-end justify-end">
 											<a
 												href={item.url}
 												target={"_blank"}
 												rel="noreferrer"
-												className="bg-emerald-600 py-2 px-3 tracking-wider font-black rounded-md outline-none text-sm capitalize text-emerald-50 inline-block motion-safe:hover:bg-emerald-700 transition-colors duration-200 ease-linear">
+												className="py-2 px-3 tracking-wider font-black rounded-md outline-none text-sm capitalize text-white inline-block bg-skin-normal">
 												see live
 											</a>
 											<a
 												href={item.sourceCode}
 												target={"_blank"}
 												rel="noreferrer"
-												className=" py-2 px-3 rounded-md outline-none border-none tracking-wider font-black text-sm inline-block capitalize text-emerald-200 ">
+												className=" py-2 px-3 rounded-md outline-none border-none tracking-wider font-black text-sm inline-block capitalize text-skin-extraLight">
 												codespace
 											</a>
 										</div>
