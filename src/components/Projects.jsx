@@ -33,23 +33,21 @@ function Projects() {
 								key={index}
 								className="w-full h-full flex flex-col p-4 pb-0 rounded-3xl overflow-hidden border-2 cursor-text border-normal">
 								<div className="sm:h-56 h-48 mb-4 overflow-hidden rounded-3xl">
-									<img
-										src={item.projectImg}
-										alt={item.name}
-										className="h-full w-full object-fit block aspect-auto"
-									/>
+									<a href={item.url} target={"_blank"} rel="noreferrer">
+										<img
+											src={item.projectImg}
+											alt={item.name}
+											className="h-full w-full object-fit block aspect-auto"
+										/>
+									</a>
 								</div>
 								<div className="mt-auto">
-									<a
-										href={item.url}
-										target={"_blank"}
-										rel="noreferrer"
-										className="inline-block font-black tracking-wide text-lg md:text-2xl my-4 text-gray-300 capitalize motion-safe:hover:text-skin-extraLight motion-safe:hover:tracking-wider transition-all duration-500 ease-in ">
+									<h2 className="inline-block font-black tracking-wide text-lg md:text-2xl my-4 text-gray-300 capitalize motion-safe:hover:text-skin-extraLight motion-safe:hover:tracking-wider transition-all duration-500 ease-in ">
 										{item.name}
-									</a>
+									</h2>
 
 									<div className="mt-4">
-										<h5 className="text-xs tracking-wider mb-2 text-gray-300 font-semibold capitalize py-1 px-2 inline-block rounded-xl">
+										<h5 className="text-xs tracking-wider mb-2 text-gray-300 font-semibold capitalize py-1 px-2 inline-block rounded-xl bg-skin-normal">
 											skills i've used
 										</h5>
 										<div className="flex flex-wrap gap-2">
@@ -67,7 +65,7 @@ function Projects() {
 										</div>
 									</div>
 									<div className="mt-5">
-										<h5 className="text-xs tracking-wider mb-2 text-gray-300 font-semibold capitalize py-1 px-2 inline-block rounded-xl">
+										<h5 className="text-xs tracking-wider mb-2 text-gray-300 font-semibold capitalize py-1 px-2 inline-block rounded-xl bg-skin-normal">
 											what it's about
 										</h5>
 

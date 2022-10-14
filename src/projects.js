@@ -8,7 +8,7 @@ import onboardingSteps from "./assets/projects-img/onBoarding.png";
 
 export const projects = [
 	{
-		name: "Colors-Finder",
+		name: "Colors Finder",
 		url: "http://findcolors.info",
 		projectImg: colorsFinder,
 		skills: [
@@ -25,7 +25,7 @@ export const projects = [
 		sourceCode: "https://github.com/varun-raana/whichColorOnSite",
 	},
 	{
-		name: "git-hub-user-finder",
+		name: "gitHub user finder",
 		url: "https://find-github-profile.netlify.app",
 		projectImg: githubUserFinder,
 		skills: ["ReactJs", "React-spinners", "TailwindCss", "Git", "GitHub"],
@@ -34,7 +34,7 @@ export const projects = [
 		sourceCode: "https://github.com/varun-raana/GitHub-User-Finder",
 	},
 	{
-		name: "Elite-Vibes Management Company",
+		name: "Elite Vibes Management Company",
 		url: "https://elite-vibes.herokuapp.com",
 		projectImg: eliteVibes,
 		skills: [
