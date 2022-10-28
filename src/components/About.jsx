@@ -83,13 +83,11 @@ function About() {
 					</div>
 				</div>
 				<div className="relative z-20">
-					{/* <div className="absolute rounded-xl border-2 border-emerald-600 h-full w-full -top-3 -left-3 -z-10"></div> */}
 					<img
 						src={portfolioImg}
-						className="rounded-xl w-72 h-full md:h-96 md:w-full block z-10 relative -translate-x-2 -translate-y-2"
+						className="rounded-xl w-72 h-full md:h-96 md:w-full block relative shadow-base"
 						alt="portfolioImage"
 					/>
-					<div className="absolute rounded-xl bg-skin-base h-full w-full top-2 left-2 -z-10"></div>
 				</div>
 			</div>
 		</div>

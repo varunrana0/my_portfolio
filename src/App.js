@@ -13,7 +13,15 @@ function App() {
 	const [colors, setColors] = useState("");
 
 	const toggleTheme =
-		colors === "teal" ? "theme-teal" : colors === "pink" ? "theme-pink" : "";
+		colors === "teal"
+			? "theme-teal"
+			: colors === "pink"
+			? "theme-pink"
+			: colors === "sky"
+			? "theme-sky"
+			: colors === "orange"
+			? "theme-orange"
+			: "";
 
 	return (
 		<div className={toggleTheme}>

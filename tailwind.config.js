@@ -25,6 +25,9 @@ module.exports = {
 				normal: "var(--normal-color)",
 				"color-opacity": "var(--border-color-opacity)",
 			},
+			boxShadow: {
+				base: "var(--shadow-base)",
+			},
 		},
 	},
 	plugins: [],
