@@ -8,15 +8,21 @@ import mongoDB from "../assets/logo/mongodb-original-wordmark.svg";
 import expressJs from "../assets/logo/express-original-wordmark.svg";
 import git from "../assets/logo/git.svg";
 import gitHub from "../assets/logo/github-original-wordmark.svg";
+import supabase from "../assets/logo/supabase-logo-icon.svg";
+import nextjs from "../assets/logo/nextjs-original-wordmark.svg";
+import typescript from "../assets/logo/typescript-original.svg";
 
 const logos = [
 	html,
 	css,
 	javascript,
+	typescript,
 	tailwindcss,
 	nodejs,
 	reactjs,
+	nextjs,
 	mongoDB,
+	supabase,
 	expressJs,
 	git,
 	gitHub,
@@ -30,7 +36,9 @@ function Skills() {
 					<span className="text-xl md:text-3xl block md:mr-0 mr-2">
 						technologies
 					</span>
-					<span className="text-4xl md:text-6xl block font-black">i learned!</span>
+					<span className="text-4xl md:text-6xl block font-black">
+						i learned!
+					</span>
 				</h1>
 				<div className="w-full rounded-xl md:p-10 py-10 mt-5 lg:mt-0 md:bg-black/5 ">
 					<div className="grid md:grid-cols-4 grid-cols-3 gap-5 place-items-center max-w-sm flex-none">
