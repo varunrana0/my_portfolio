@@ -20,8 +20,7 @@ export const projects = [
 			"GitHub",
 			"RestAPIs",
 		],
-		desc:
-			"you liked colors on a website but, it's time consuming and cumbersome to fiddle around with source code, inspecting elements just to get colors. Here we come into picture, jsut enter website URL and we go and grab all colors using by that website.",
+		desc: "Colors Finder is a web-based tool that allows you to easily fetch the color scheme of any website by simply entering its URL. Whether you're a designer seeking inspiration or a developer looking to match a website's color scheme to your project, Colors Finder has got you covered. With the ability to fetch colors from global files or CSS files, you can get an accurate representation of any website's color palette. Try Colors Finder today and elevate your design and development workflow.",
 		sourceCode: "https://github.com/varun-raana/whichColorOnSite",
 	},
 	{
@@ -29,8 +28,7 @@ export const projects = [
 		url: "https://find-github-profile.netlify.app",
 		projectImg: githubUserFinder,
 		skills: ["ReactJs", "React-spinners", "TailwindCss", "Git", "GitHub"],
-		desc:
-			"A Simple, Effective and Easier way to find any gitHub user Repository. just enter user login name and see their repo name, when they joined github and more.",
+		desc: "A Simple, Effective and Easier way to find any gitHub user Repository. just enter user login name and see their repo name, when they joined github and more.",
 		sourceCode: "https://github.com/varun-raana/GitHub-User-Finder",
 	},
 	{
@@ -50,8 +48,7 @@ export const projects = [
 			"Git",
 			"GitHub",
 		],
-		desc:
-			"EliteVibes Is One Of The Most Premier Entertainment Company In Pune That Covers All Aspects Of Entertainment Such As Gaming, Live Concerts, Networking Events, Private Parties And Holistic Festival Management. Get In Touch With Us For More Details.",
+		desc: "EliteVibes Is One Of The Most Premier Entertainment Company In Pune That Covers All Aspects Of Entertainment Such As Gaming, Live Concerts, Networking Events, Private Parties And Holistic Festival Management. Get In Touch With Us For More Details.",
 		sourceCode: "https://github.com/varun-raana/Ellite-Vibes-React",
 	},
 	{
@@ -67,8 +64,7 @@ export const projects = [
 			"Git",
 			"GitHub",
 		],
-		desc:
-			"timer app with 25 minutes work schedule with a 5 minute break to get relaxed.",
+		desc: "timer app with 25 minutes work schedule with a 5 minute break to get relaxed.",
 		sourceCode: "https://github.com/varun-raana/pomodro-timer-app",
 	},
 	{
@@ -76,8 +72,7 @@ export const projects = [
 		url: "https://varun-rana.netlify.app",
 		projectImg: portfolioOne,
 		skills: ["ReactJs", "TailwindCss", "react-router", "Git", "GitHub"],
-		desc:
-			"A Simple, Effective and Easier way to get hired by the top companies is by showing them your skills as well a good portolio helps more.",
+		desc: "A Simple, Effective and Easier way to get hired by the top companies is by showing them your skills as well a good portolio helps more.",
 		sourceCode: "https://github.com/varun-raana/PortFolio-Website",
 	},
 	{
@@ -85,8 +80,7 @@ export const projects = [
 		url: "https://varun-rana-portfolio.netlify.app",
 		projectImg: portfolio,
 		skills: ["ReactJs", "TailwindCss", "Git", "GitHub"],
-		desc:
-			"A Simple, Effective and Easier way to get hired by the top companies is by showing them your skills as well a good portolio helps more.",
+		desc: "A Simple, Effective and Easier way to get hired by the top companies is by showing them your skills as well a good portolio helps more.",
 		sourceCode: "https://github.com/varun-raana/my_portfolio",
 	},
 	{
@@ -98,3 +92,5 @@ export const projects = [
 		sourceCode: "https://github.com/varun-raana/OnBoarding_Steps_Form",
 	},
 ];
+
+export const techs = ["Html", "Css"];

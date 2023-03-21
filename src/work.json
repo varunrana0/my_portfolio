@@ -1,0 +1,26 @@
+[
+	{
+		"position": "Jr. Software Engineer",
+		"city": "Pune",
+		"state": " Maharashtra",
+		"date": "Nov 2022 - Present",
+		"timelinePostion": "right",
+		"name": "MtechZilla: Website - App development",
+		"website": "https://mtechzilla.com",
+		"desc": "At Mtechzilla, I have been responsible for designing and implementing features that enhance the user experience and streamline processes. This has involved working closely with the product team to understand requirements, brainstorming solutions, and collaborating with other developers to bring ideas to life.",
+		"delay": "100",
+		"shadow": "5px 5px 0 1px black"
+	},
+	{
+		"position": "Intern",
+		"city": "Pune",
+		"state": " Maharashtra",
+		"date": "Jan 2022 - July 2022",
+		"timelinePostion": "left",
+		"website": "https://botmaticsolutions.com/",
+		"name": "Botmatic Solutions Pvt Ltd.",
+		"desc": "I completed an internship at Botmatic Solutions Pvt Ltd, a software development company focused on building intelligent automation solutions. I gained valuable experience in programming languages such as JavaScript, as well as in agile software development methodologies. Overall, my internship at Botmatic Solutions Pvt Ltd was a great learning experience and helped me develop my skills in software engineering.",
+		"delay": "400",
+		"shadow": "-5px 5px 0 1px black"
+	}
+]

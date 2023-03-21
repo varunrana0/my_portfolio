@@ -3,8 +3,10 @@ import { projects } from "../projects";
 
 function Projects() {
 	return (
-		<div className="md:px-10 lg:py-36 xl:py-20 py-14 w-full h-full" id="projects">
-			<h1 className="text-skin-light capitalize text-xl w-fit font-semibold flex">
+		<div
+			className="md:px-10 lg:py-36 xl:py-20 py-14 w-full h-full"
+			id="projects">
+			<h1 className="text-white capitalize text-xl w-fit font-semibold flex">
 				<span>my</span>
 				<span className="border-b-2 border-normal ml-2">workspace</span>
 				<span>
@@ -31,9 +33,12 @@ function Projects() {
 						return (
 							<div
 								key={index}
-								className="w-full h-full flex flex-col p-4 pb-0 rounded-3xl overflow-hidden border-2 cursor-text border-normal">
+								className="w-full h-full flex flex-col p-4 pb-0 rounded-3xl overflow-hidden border-2 border-white cursor-text border-normal">
 								<div className="sm:h-56 h-48 mb-4 overflow-hidden rounded-3xl">
-									<a href={item.url} target={"_blank"} rel="noreferrer">
+									<a
+										href={item.url}
+										target={"_blank"}
+										rel="noreferrer">
 										<img
 											src={item.projectImg}
 											alt={item.name}
@@ -42,7 +47,7 @@ function Projects() {
 									</a>
 								</div>
 								<div className="mt-auto">
-									<h2 className="inline-block font-black tracking-wide text-lg md:text-2xl my-4 text-gray-300 capitalize motion-safe:hover:text-skin-extraLight motion-safe:hover:tracking-wider transition-all duration-500 ease-in ">
+									<h2 className="inline-block font-black tracking-wide text-lg md:text-2xl my-4 text-gray-300 capitalize motion-safe:hover:text-white motion-safe:hover:tracking-wider transition-all duration-500 ease-in ">
 										{item.name}
 									</h2>
 
@@ -53,15 +58,17 @@ function Projects() {
 										<div className="flex flex-wrap gap-2">
 											{item.skills &&
 												item.skills.length > 0 &&
-												item.skills.map((item, index) => {
-													return (
-														<span
-															key={index}
-															className="border-2 border-normal py-2 px-3 text-xs rounded-xl text-skin-light cursor-pointer hover:bg-skin-colorHover transition-all duration-200 tracking-wider capitalize">
-															{item}
-														</span>
-													);
-												})}
+												item.skills.map(
+													(item, index) => {
+														return (
+															<span
+																key={index}
+																className="border-2 border-normal py-2 px-3 text-xs rounded-xl text-white cursor-pointer hover:bg-skin-colorHover transition-all duration-200 tracking-wider capitalize">
+																{item}
+															</span>
+														);
+													},
+												)}
 										</div>
 									</div>
 									<div className="mt-5">
@@ -86,7 +93,7 @@ function Projects() {
 												href={item.sourceCode}
 												target={"_blank"}
 												rel="noreferrer"
-												className=" py-2 px-3 rounded-md outline-none border-none tracking-wider font-black text-sm inline-block capitalize text-skin-extraLight">
+												className=" py-2 px-3 rounded-md outline-none border-none tracking-wider font-black text-sm inline-block capitalize text-white">
 												codespace
 											</a>
 										</div>

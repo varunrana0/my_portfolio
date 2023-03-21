@@ -3,67 +3,76 @@
 @tailwind utilities;
 
 @font-face {
-	font-family: "Vary-Light";
-	src: url("../src/assets/Vary-Light.otf");
+	font-family: "MonumentExtended";
+	src: url("assets/fonts/MonumentExtended-Ultrabold.otf");
+	font-style: normal;
 }
 
-@layer base {
-	:root {
-		--text-color: rgb(4 120 87);
-		--light-color: rgb(167 243 208);
-		--extraLight-color: rgb(236 253 245);
-		--normal-color: rgb(5 150 105);
-		--fill-color: rgb(4 120 87);
-		--hover-color: rgb(6 78 59 / 0.2);
-		--border-color-opacity: rgb(6 95 70 / 0.4);
-		--shadow-base: 10px 10px 0 var(--fill-color);
-	}
-
-	.theme-teal {
-		--text-color: rgb(15 118 110);
-		--light-color: rgb(153 246 228);
-		--extraLight-color: rgb(240 253 250);
-		--normal-color: rgb(13 148 136);
-		--fill-color: rgb(15 118 110);
-		--hover-color: rgb(19 78 74 / 0.2);
-		--border-color-opacity: rgb(17 94 89 / 0.4);
-		--shadow-base: 10px 10px 0 var(--fill-color);
-	}
-
-	.theme-pink {
-		--text-color: rgb(190 24 93);
-		--light-color: rgb(251 207 232);
-		--extraLight-color: rgb(253 242 248);
-		--normal-color: rgb(219 39 119);
-		--fill-color: rgb(190 24 93);
-		--hover-color: rgb(131 24 67 / 0.2);
-		--border-color-opacity: rgb(157 23 77 / 0.4);
-		--shadow-base: 10px 10px 0 var(--fill-color);
-	}
-
-	.theme-sky {
-		--text-color: rgb(3 105 161);
-		--light-color: rgb(224 242 254);
-		--extraLight-color: rgb(186 230 253);
-		--normal-color: rgb(2 132 199);
-		--fill-color: rgb(3 105 161);
-		--hover-color: rgb(12 74 110/ 0.2);
-		--border-color-opacity: rgb(7 89 133/ 0.4);
-		--shadow-base: 10px 10px 0 var(--fill-color);
-	}
-
-	.theme-orange {
-		--text-color: rgb(194 65 12);
-		--light-color: rgb(255 237 213);
-		--extraLight-color: rgb(254 215 170);
-		--normal-color: rgb(234 88 12);
-		--fill-color: rgb(194 65 12);
-		--hover-color: rgb(124 45 18/ 0.2);
-		--border-color-opacity: rgb(154 52 18/ 0.4);
-		--shadow-base: 10px 10px 0 var(--fill-color);
-	}
+@font-face {
+	font-family: "MonumentRegular";
+	src: url("assets/fonts/MonumentExtended-Regular.otf");
+	font-style: normal;
 }
 
-html {
+@font-face {
+	font-family: "Roobert";
+	src: url("assets/fonts/Roobert-Regular.ttf");
+	font-style: normal;
+}
+
+html,
+body {
 	scroll-behavior: smooth;
+	user-select: none;
+}
+
+.text-11 {
+	transform: translateZ(0px);
+	transform: rotate(4deg);
+}
+
+.text-11:hover {
+	transform: rotate(0deg);
+}
+
+/* @keyframes rotate-more {
+	0% {
+		transform: rotate(10deg) translateY(10px);
+	}
+	10% {
+		transform: rotate(30deg) translateY(20px);
+	}
+	30% {
+		transform: rotate(60deg) translateY(30px);
+	}
+	50% {
+		transform: rotate(-60deg) translateY(10px);
+	}
+	100% {
+		transform: rotate(0deg) translateY(0px);
+	}
+} */
+
+.stroke-text22 {
+	-webkit-text-stroke: 2px #0d0d0d;
+	-webkit-text-fill-color: transparent;
+}
+
+.animate {
+	transform: translate3d(-136.981vw, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+		rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+	transform-style: preserve-3d;
+	will-change: transform;
+}
+
+/* For Webkit-based browsers (Chrome, Safari and Opera) */
+.scrollbar-hide::-webkit-scrollbar {
+	display: none;
+	scroll-behavior: smooth;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
 }
