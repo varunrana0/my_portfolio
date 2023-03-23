@@ -1,57 +1,50 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.section`
-	width: 100%;
-	background-color: #14141a;
+export const Container = styled.section`
 	overflow: hidden;
+	background-color: #5de2b2;
 	border-bottom: 4px solid black;
-`;
-
-export const Heading = styled.h1`
-	font-weight: 800;
-	text-align: center;
-	font-size: 60px;
-	width: 100%;
-	padding-top: 2rem;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	-webkit-text-stroke: 2px white;
-	-webkit-text-fill-color: transparent;
-	text-transform: capitalize;
-	white-space: nowrap;
-
-	@media screen and (max-width: 500px) {
-		font-size: 50px;
-	}
-`;
-
-export const Grid = styled.div`
-	display: flex;
-	flex-wrap: wrap;
-	width: 100%;
-	margin-top: 2rem;
-	background-color: transparent;
-	font-family: "Roobert", sans-serif;
-	text-transform: uppercase;
-	font-weight: 700;
+	height: 100vh;
 	padding: 40px 0;
-	padding-bottom: 100px;
 `;
 
 export const Box = styled.div`
-	display: flex;
-	align-items: center;
-	justify-content: center;
 	height: 100px;
-	margin: 30px;
-	padding: 0.5rem 2rem;
-	border: 4px solid black;
-	border-radius: 90px 50px 30px 40px;
-	box-shadow: 5px 5px 0 ${(props) => props.backgroundColor};
-	background-color: ${(props) => props.backgroundColor};
+	max-width: 700px;
+	width: 100%;
+	margin: auto;
+`;
+
+export const Heading = styled.h2`
+	font-family: "MonumentExtended";
+	text-align: center;
+	font-size: 122px;
+	text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.2);
+	will-change: transform;
+	transform: skew(50%, 50%);
+
+	-webkit-text-stroke: 2px #0d0d0d;
+	-webkit-text-fill-color: transparent;
 
 	@media screen and (max-width: 500px) {
-		margin: 10px;
+		font-size: 40px;
 	}
+`;
+export const Flex = styled.div`
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+`;
+
+export const InnerBoxes = styled.div`
+	padding: 0.5rem 1rem;
+	/* height: 100px; */
+	/* width: 800px; */
+	border: 2px solid black;
+	background-color: ${(props) => props.backgroundColor};
+	/* position: relative; */
+
+	/* &:hover::after {
+		opacity: 0;
+	} */
 `;

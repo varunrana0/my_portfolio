@@ -5,12 +5,12 @@ import {
 	LinkedinIcon,
 	TwitterIcon,
 } from "components/icons/icons";
-import { Container, Email, Flex, Phone, Socials } from "./footer.style";
+import { Container, Copyright, Socials } from "./footer.style";
 
 const Footer = () => {
 	return (
 		<Container>
-			<Flex>
+			{/* <Flex>
 				<Email>
 					<a href="mailto:varunrana829@gmail.com">
 						varunrana829@gmail.com
@@ -19,7 +19,7 @@ const Footer = () => {
 				<Phone>
 					<a href="tel:+917827304056">7827304056</a>
 				</Phone>
-			</Flex>
+			</Flex> */}
 			<Socials>
 				<CustomLink
 					href="https://github.com/varun-raana"
@@ -53,6 +53,9 @@ const Footer = () => {
 					<InstagramIcon />
 				</CustomLink>
 			</Socials>
+			<Copyright>
+				Copyright Varun Rana {new Date().getFullYear()}
+			</Copyright>
 		</Container>
 	);
 };

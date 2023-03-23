@@ -6,7 +6,7 @@ import {
 import { AiOutlineLaptop } from "react-icons/ai";
 import CustomLink from "common/customLink/CustomLink";
 import "react-vertical-timeline-component/style.min.css";
-import { Paragraph, SubTitle, Title } from "./timeline.style";
+import { Paragraph, SubTitle, Title } from "./experience.style";
 
 export default function TimelineProject() {
 	return (

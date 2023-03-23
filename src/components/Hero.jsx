@@ -6,11 +6,13 @@ import {
 	Tag,
 	Wrapper,
 } from "./hero/hero.style";
+import { AboutMeSvg } from "./icons/icons";
 
 function Hero() {
 	return (
 		<Container>
 			<InnerContainer>
+				<AboutMeSvg />
 				<Box>
 					<Wrapper>
 						<Tag>I</Tag>

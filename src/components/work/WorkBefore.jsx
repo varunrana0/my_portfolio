@@ -1,5 +1,4 @@
-import TimelineProject from "components/Projects/TimelineProjects";
-// import { useEffect, useState } from "react";
+import TimelineProject from "components/experience/Experience";
 import {
 	AnimatedFlex,
 	Container,
@@ -9,21 +8,6 @@ import {
 } from "./work.style";
 
 function WorkBefore() {
-	// const [animate, setAnimate] = useState(false);
-
-	// useEffect(() => {
-	// 	function handleScroll() {
-	// 		if (window.scrollY >= 500) {
-	// 			// Change this value to the minimum scroll position at which you want the animation to start
-	// 			setAnimate(true);
-	// 		} else {
-	// 			setAnimate(false);
-	// 		}
-	// 	}
-	// 	window.addEventListener("scroll", handleScroll);
-	// 	return () => window.removeEventListener("scroll", handleScroll);
-	// }, []);
-
 	return (
 		<Wrapper id="about">
 			<Container>

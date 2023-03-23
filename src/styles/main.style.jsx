@@ -27,6 +27,18 @@ export const Center = styled.div`
 	overflow-y: scroll;
 `;
 
+export const Chat = styled.div`
+	height: 50px;
+	width: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+`;
+
 export const Right = styled.div`
 	width: 40px;
 	height: 100%;
