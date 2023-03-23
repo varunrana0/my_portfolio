@@ -3,7 +3,8 @@ import Footer from "components/footer/Footer";
 import Hero from "components/Hero";
 import WorkBefore from "components/work/WorkBefore";
 import { Center, Main } from "./styles/main.style";
-import CallToAction from "components/calltoaction/CallToAction";
+// import CallToAction from "components/calltoaction/CallToAction";
+import Project from "components/projects/Project";
 
 function App() {
 	return (
@@ -12,7 +13,8 @@ function App() {
 				<Hero />
 				<WorkBefore />
 				<TechStack />
-				<CallToAction />
+				<Project />
+				{/* <CallToAction /> */}
 				<Footer />
 			</Center>
 		</Main>

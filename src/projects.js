@@ -93,4 +93,26 @@ export const projects = [
 	},
 ];
 
-export const techs = ["Html", "Css"];
+export const techs = [
+	"html",
+	"css",
+	"javascript",
+	"typescript",
+	"styled-components",
+	"material-ui",
+	"tailwindcss",
+	"chakra-ui",
+	"codux",
+	"node.js",
+	"react.js",
+	"next.js",
+	"react-query",
+	"postgress",
+	"supabase",
+	"mongoDB",
+	"axios",
+	"git",
+	"github",
+	"jest",
+	"playwright",
+];

@@ -1,3 +1,4 @@
+import { techs } from "projects";
 import React, { useState, useEffect, useMemo } from "react";
 import { Heading, Wrapper, Box, Grid } from "./techStack.style";
 
@@ -9,32 +10,7 @@ const generateAdvancedColor = () => {
 };
 
 const TechList = () => {
-	const tech = useMemo(
-		() => [
-			"html",
-			"css",
-			"javascript",
-			"typescript",
-			"styled-components",
-			"material-ui",
-			"tailwindcss",
-			"chakra-ui",
-			"codux",
-			"node.js",
-			"react.js",
-			"next.js",
-			"react-query",
-			"postgress",
-			"supabase",
-			"mongoDB",
-			"axios",
-			"git",
-			"github",
-			"jest",
-			"playwright",
-		],
-		[],
-	);
+	const tech = useMemo(() => techs, []);
 	const [backgroundColors, setBackgroundColors] = useState([]);
 
 	useEffect(() => {
