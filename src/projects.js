@@ -69,7 +69,7 @@ export const projects = [
 	},
 	{
 		name: "portfolio one",
-		url: "https://varunrana.info",
+		url: "https://varun-rana.netlify.app",
 		projectImg: portfolioOne,
 		skills: ["ReactJs", "TailwindCss", "react-router", "Git", "GitHub"],
 		desc: "A Simple, Effective and Easier way to get hired by the top companies is by showing them your skills as well a good portolio helps more.",
