@@ -33,7 +33,7 @@ export const projects = [
 	},
 	{
 		name: "Elite Vibes Management Company",
-		url: "https://elite-vibes.herokuapp.com",
+		url: "https://elitevibes.in",
 		projectImg: eliteVibes,
 		skills: [
 			"ReactJs",
@@ -69,7 +69,7 @@ export const projects = [
 	},
 	{
 		name: "portfolio one",
-		url: "https://varun-rana.netlify.app",
+		url: "https://varunrana.info",
 		projectImg: portfolioOne,
 		skills: ["ReactJs", "TailwindCss", "react-router", "Git", "GitHub"],
 		desc: "A Simple, Effective and Easier way to get hired by the top companies is by showing them your skills as well a good portolio helps more.",
