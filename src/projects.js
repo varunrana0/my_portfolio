@@ -115,4 +115,5 @@ export const techs = [
 	"github",
 	"jest",
 	"playwright",
+	"react-table"
 ];
