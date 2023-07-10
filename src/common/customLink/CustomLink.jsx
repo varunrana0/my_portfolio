@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "./link.style";
 
 const CustomLink = ({
@@ -21,7 +20,8 @@ const CustomLink = ({
 			width={width}
 			bg={bg}
 			target={href && href.startsWith("#") ? "_self" : "_blank"}
-			rel="noreferrer">
+			rel="noreferrer"
+		>
 			{children}
 		</Link>
 	);

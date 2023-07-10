@@ -21,7 +21,7 @@ export const projects = [
 			"RestAPIs",
 		],
 		desc: "Colors Finder is a web-based tool that allows you to easily fetch the color scheme of any website by simply entering its URL. Whether you're a designer seeking inspiration or a developer looking to match a website's color scheme to your project, Colors Finder has got you covered. With the ability to fetch colors from global files or CSS files, you can get an accurate representation of any website's color palette. Try Colors Finder today and elevate your design and development workflow.",
-		sourceCode: "https://github.com/varun-raana/whichColorOnSite",
+		sourceCode: "https://github.com/varunrana0/whichColorOnSite",
 	},
 	{
 		name: "gitHub user finder",
@@ -29,7 +29,7 @@ export const projects = [
 		projectImg: githubUserFinder,
 		skills: ["ReactJs", "React-spinners", "TailwindCss", "Git", "GitHub"],
 		desc: "A Simple, Effective and Easier way to find any gitHub user Repository. just enter user login name and see their repo name, when they joined github and more.",
-		sourceCode: "https://github.com/varun-raana/GitHub-User-Finder",
+		sourceCode: "https://github.com/varunrana0/GitHub-User-Finder",
 	},
 	{
 		name: "Elite Vibes Management Company",
@@ -49,7 +49,7 @@ export const projects = [
 			"GitHub",
 		],
 		desc: "EliteVibes Is One Of The Most Premier Entertainment Company In Pune That Covers All Aspects Of Entertainment Such As Gaming, Live Concerts, Networking Events, Private Parties And Holistic Festival Management. Get In Touch With Us For More Details.",
-		sourceCode: "https://github.com/varun-raana/Ellite-Vibes-React",
+		sourceCode: "https://github.com/varunrana0/Ellite-Vibes-React",
 	},
 	{
 		name: "pomodro timer app",
@@ -65,7 +65,7 @@ export const projects = [
 			"GitHub",
 		],
 		desc: "timer app with 25 minutes work schedule with a 5 minute break to get relaxed.",
-		sourceCode: "https://github.com/varun-raana/pomodro-timer-app",
+		sourceCode: "https://github.com/varunrana0/pomodro-timer-app",
 	},
 	{
 		name: "portfolio one",
@@ -73,7 +73,7 @@ export const projects = [
 		projectImg: portfolioOne,
 		skills: ["ReactJs", "TailwindCss", "react-router", "Git", "GitHub"],
 		desc: "A Simple, Effective and Easier way to get hired by the top companies is by showing them your skills as well a good portolio helps more.",
-		sourceCode: "https://github.com/varun-raana/PortFolio-Website",
+		sourceCode: "https://github.com/varunrana0/PortFolio-Website",
 	},
 	{
 		name: "portfolio two",
@@ -81,7 +81,7 @@ export const projects = [
 		projectImg: portfolio,
 		skills: ["ReactJs", "TailwindCss", "Git", "GitHub"],
 		desc: "A Simple, Effective and Easier way to get hired by the top companies is by showing them your skills as well a good portolio helps more.",
-		sourceCode: "https://github.com/varun-raana/my_portfolio",
+		sourceCode: "https://github.com/varunrana0/my_portfolio",
 	},
 	{
 		name: "onboarding steps form",
@@ -89,7 +89,7 @@ export const projects = [
 		projectImg: onboardingSteps,
 		skills: ["ReactJs", "TailwindCss", "Git", "GitHub"],
 		desc: "Build workspace with this cool multi steps form with some animations.",
-		sourceCode: "https://github.com/varun-raana/OnBoarding_Steps_Form",
+		sourceCode: "https://github.com/varunrana0/OnBoarding_Steps_Form",
 	},
 ];
 
@@ -115,4 +115,5 @@ export const techs = [
 	"github",
 	"jest",
 	"playwright",
+	"react-table"
 ];
