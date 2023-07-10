@@ -1,8 +1,12 @@
 import styled from "styled-components";
 
 export const Container = styled.footer`
-	display: block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	overflow: hidden;
+	font-weight: 600;
+
 	/* background-color: #14141a; */
 `;
 
@@ -46,15 +50,6 @@ export const Phone = styled.h3`
 	font-family: "Roobert", sans-serif;
 	letter-spacing: 0.3px;
 	font-weight: 600;
-`;
-
-export const Socials = styled.section`
-	display: flex;
-	height: 4vw;
-	border-bottom: 2px solid black;
-	@media screen and (max-width: 500px) {
-		height: 10vw;
-	}
 `;
 
 export const Copyright = styled.div`
