@@ -14,7 +14,6 @@ function App() {
 				<WorkBefore />
 				<TechStack />
 				<Project />
-				{/* <CallToAction /> */}
 				<Footer />
 			</Center>
 		</Main>

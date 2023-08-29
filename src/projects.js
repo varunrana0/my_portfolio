@@ -9,17 +9,9 @@ import onboardingSteps from "./assets/projects-img/onBoarding.png";
 export const projects = [
 	{
 		name: "Colors Finder",
-		url: "http://findcolors.info",
+		url: "https://color-finder-v2.vercel.app/",
 		projectImg: colorsFinder,
-		skills: [
-			"ReactJs",
-			"TailwindCss",
-			"NodeJs",
-			"mongoDB",
-			"Git",
-			"GitHub",
-			"RestAPIs",
-		],
+		skills: ["ReactJs", "TailwindCss", "NodeJs", "mongoDB", "Git", "GitHub", "RestAPIs"],
 		desc: "Colors Finder is a web-based tool that allows you to easily fetch the color scheme of any website by simply entering its URL. Whether you're a designer seeking inspiration or a developer looking to match a website's color scheme to your project, Colors Finder has got you covered. With the ability to fetch colors from global files or CSS files, you can get an accurate representation of any website's color palette. Try Colors Finder today and elevate your design and development workflow.",
 		sourceCode: "https://github.com/varunrana0/whichColorOnSite",
 	},
@@ -115,5 +107,5 @@ export const techs = [
 	"github",
 	"jest",
 	"playwright",
-	"react-table"
+	"react-table",
 ];

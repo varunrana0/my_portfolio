@@ -1,16 +1,10 @@
 import TimelineProject from "components/experience/Experience";
-import {
-	AnimatedFlex,
-	Container,
-	Experience,
-	Title,
-	Wrapper,
-} from "./work.style";
+import { Wrapper } from "./work.style";
 
 function WorkBefore() {
 	return (
 		<Wrapper id="about">
-			<Container>
+			{/* <Container>
 				<AnimatedFlex>
 					<Experience>
 						<Title>experience</Title>
@@ -21,7 +15,7 @@ function WorkBefore() {
 						<Title className="stroke-text22">experience</Title>
 					</Experience>
 				</AnimatedFlex>
-			</Container>
+			</Container> */}
 
 			<TimelineProject />
 		</Wrapper>
