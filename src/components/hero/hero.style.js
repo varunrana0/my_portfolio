@@ -50,21 +50,15 @@ export const Info = styled.h5`
 	margin-left: 5rem;
 	word-break: break-all;
 	font-family: "Roobert", sans-serif;
-
-	@media screen and (max-width: 500px) {
-		/* margin-top: 1rem; */
-		/* font-size: 1; */
-	}
 `;
 
 export const Bio = styled.p`
-	font-size: 1.1rem;
+	font-size: 1rem;
 	font-weight: 500;
 	max-width: 700px;
 	margin: 3rem auto 0 auto;
 	font-family: "Roobert", sans-serif;
-	letter-spacing: 1px;
-	/* text-align: justify; */
+	letter-spacing: 0.3px;
 	padding: 0.7rem;
 	text-align: center;
 `;
@@ -75,6 +69,5 @@ export const Socials = styled.section`
 	align-items: center;
 	justify-content: center;
 	gap: 10px;
-	border-bottom: 2px solid black;
 	margin-top: 1rem;
 `;

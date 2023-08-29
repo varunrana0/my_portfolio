@@ -23,15 +23,14 @@ export const Container = styled.div`
 
 export const AnimatedFlex = styled.div`
 	display: flex;
-	column-gap: 8vw;
+	column-gap: 5vw;
 	width: 100vw;
-	height: 8vw;
+	height: 5vw;
 	margin-top: 16px;
 	align-items: center;
-	transform: ${({ animated }) =>
-		animated ? "translate3d(-136vw, 0, 0)" : "translate3d(0, 0, 0)"};
+	transform: ${({ animated }) => (animated ? "translate3d(-136vw, 0, 0)" : "translate3d(0, 0, 0)")};
 	transform-style: preserve-3d;
-	animation: ${slide} 30s linear infinite forwards;
+	animation: ${slide} 50s linear infinite forwards;
 	will-change: transform;
 `;
 
@@ -46,10 +45,10 @@ export const Experience = styled.div`
 export const Title = styled.h1`
 	width: auto;
 	display: flex;
-	line-height: 8vw;
+	line-height: 5vw;
 	margin: 0;
 	white-space: nowrap;
-	font-size: 8vw;
+	font-size: 5vw;
 	font-weight: bold;
 
 	font-family: "MonumentExtended", sans-serif;
