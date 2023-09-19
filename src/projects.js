@@ -1,4 +1,4 @@
-import colorsFinder from "./assets/projects-img/findcolors.info_.png";
+import colorsFinder from "./assets/projects-img/colors_finder_v2.png";
 import githubUserFinder from "./assets/projects-img/find-github-profile.png";
 import eliteVibes from "./assets/projects-img/elite-vibes.png";
 import pomodroTimer from "./assets/projects-img/pomodrotimer.png";
