@@ -4,7 +4,7 @@ import { Box, Container, Heading, Image, Wrapper } from "./projects.style";
 const Project = () => {
 	return (
 		<Container>
-			<Heading>Projects and Work</Heading>
+			<Heading>from idea to reality</Heading>
 			<Wrapper>
 				{projects &&
 					projects?.map((item, index) => (
@@ -13,41 +13,6 @@ const Project = () => {
 						</Box>
 					))}
 			</Wrapper>
-
-			{/* <FlexBox>
-				<ProjectBox>
-					<ProjectImg src={projects[0].projectImg} alt={projects[0].name} />
-					<Title>Color's Finder, easily find colors on website</Title>
-				</ProjectBox>
-				<ProjectBox>
-					<ProjectImg src={projects[0].projectImg} alt={projects[0].name} />
-					<Title>Color's Finder, easily find colors on website</Title>
-				</ProjectBox>
-				<ProjectBox>
-					<ProjectImg src={projects[0].projectImg} alt={projects[0].name} />
-					<Title>Color's Finder, easily find colors on website</Title>
-				</ProjectBox>
-				<ProjectBox>
-					<ProjectImg src={projects[0].projectImg} alt={projects[0].name} />
-					<Title>Color's Finder, easily find colors on website</Title>
-				</ProjectBox>
-				<ProjectBox>
-					<ProjectImg src={projects[0].projectImg} alt={projects[0].name} />
-					<Title>Color's Finder, easily find colors on website</Title>
-				</ProjectBox>
-				<ProjectBox>
-					<ProjectImg src={projects[0].projectImg} alt={projects[0].name} />
-					<Title>Color's Finder, easily find colors on website</Title>
-				</ProjectBox>
-				<ProjectBox>
-					<ProjectImg src={projects[0].projectImg} alt={projects[0].name} />
-					<Title>Color's Finder, easily find colors on website</Title>
-				</ProjectBox>
-				<ProjectBox>
-					<ProjectImg src={projects[0].projectImg} alt={projects[0].name} />
-					<Title>Color's Finder, easily find colors on website</Title>
-				</ProjectBox>
-			</FlexBox> */}
 		</Container>
 	);
 };

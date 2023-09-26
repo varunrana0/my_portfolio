@@ -1,12 +1,20 @@
 import colorsFinder from "./assets/projects-img/colors_finder_v2.png";
 import githubUserFinder from "./assets/projects-img/find-github-profile.png";
-import eliteVibes from "./assets/projects-img/elite-vibes.png";
+import eliteVibes from "./assets/projects-img/elite-vibes.webp";
 import pomodroTimer from "./assets/projects-img/pomodrotimer.png";
-import portfolio from "./assets/projects-img/portfolio_project.png";
+import portfolio from "./assets/projects-img/portfolio_project.webp";
 import portfolioOne from "./assets/projects-img/portfolio.png";
 import onboardingSteps from "./assets/projects-img/onBoarding.png";
 
 export const projects = [
+	{
+		name: "portfolio two",
+		url: "https://varunrana.info",
+		projectImg: portfolio,
+		skills: ["ReactJs", "TailwindCss", "Git", "GitHub"],
+		desc: "A Simple, Effective and Easier way to get hired by the top companies is by showing them your skills as well a good portolio helps more.",
+		sourceCode: "https://github.com/varunrana0/my_portfolio",
+	},
 	{
 		name: "Colors Finder",
 		url: "https://color-finder-v2.vercel.app/",
@@ -23,6 +31,40 @@ export const projects = [
 		desc: "A Simple, Effective and Easier way to find any gitHub user Repository. just enter user login name and see their repo name, when they joined github and more.",
 		sourceCode: "https://github.com/varunrana0/GitHub-User-Finder",
 	},
+
+	{
+		name: "pomodro timer app",
+		url: "https://pomodrotimer.netlify.app",
+		projectImg: pomodroTimer,
+		skills: [
+			"ReactJs",
+			"React-spinners",
+			"react-router",
+			"firebase",
+			"TailwindCss",
+			"Git",
+			"GitHub",
+		],
+		desc: "timer app with 25 minutes work schedule with a 5 minute break to get relaxed.",
+		sourceCode: "https://github.com/varunrana0/pomodro-timer-app",
+	},
+	{
+		name: "onboarding steps form",
+		url: "https://onboarding-steps-form.netlify.app/",
+		projectImg: onboardingSteps,
+		skills: ["ReactJs", "TailwindCss", "Git", "GitHub"],
+		desc: "Build workspace with this cool multi steps form with some animations.",
+		sourceCode: "https://github.com/varunrana0/OnBoarding_Steps_Form",
+	},
+	{
+		name: "portfolio one",
+		url: "https://varun-rana.netlify.app",
+		projectImg: portfolioOne,
+		skills: ["ReactJs", "TailwindCss", "react-router", "Git", "GitHub"],
+		desc: "A Simple, Effective and Easier way to get hired by the top companies is by showing them your skills as well a good portolio helps more.",
+		sourceCode: "https://github.com/varunrana0/PortFolio-Website",
+	},
+
 	{
 		name: "Elite Vibes Management Company",
 		url: "https://elitevibes.in",
@@ -43,69 +85,51 @@ export const projects = [
 		desc: "EliteVibes Is One Of The Most Premier Entertainment Company In Pune That Covers All Aspects Of Entertainment Such As Gaming, Live Concerts, Networking Events, Private Parties And Holistic Festival Management. Get In Touch With Us For More Details.",
 		sourceCode: "https://github.com/varunrana0/Ellite-Vibes-React",
 	},
-	{
-		name: "pomodro timer app",
-		url: "https://pomodrotimer.netlify.app",
-		projectImg: pomodroTimer,
-		skills: [
-			"ReactJs",
-			"React-spinners",
-			"react-router",
-			"firebase",
-			"TailwindCss",
-			"Git",
-			"GitHub",
-		],
-		desc: "timer app with 25 minutes work schedule with a 5 minute break to get relaxed.",
-		sourceCode: "https://github.com/varunrana0/pomodro-timer-app",
-	},
-	{
-		name: "portfolio one",
-		url: "https://varun-rana.netlify.app",
-		projectImg: portfolioOne,
-		skills: ["ReactJs", "TailwindCss", "react-router", "Git", "GitHub"],
-		desc: "A Simple, Effective and Easier way to get hired by the top companies is by showing them your skills as well a good portolio helps more.",
-		sourceCode: "https://github.com/varunrana0/PortFolio-Website",
-	},
-	{
-		name: "portfolio two",
-		url: "https://varunrana.info",
-		projectImg: portfolio,
-		skills: ["ReactJs", "TailwindCss", "Git", "GitHub"],
-		desc: "A Simple, Effective and Easier way to get hired by the top companies is by showing them your skills as well a good portolio helps more.",
-		sourceCode: "https://github.com/varunrana0/my_portfolio",
-	},
-	{
-		name: "onboarding steps form",
-		url: "https://onboarding-steps-form.netlify.app/",
-		projectImg: onboardingSteps,
-		skills: ["ReactJs", "TailwindCss", "Git", "GitHub"],
-		desc: "Build workspace with this cool multi steps form with some animations.",
-		sourceCode: "https://github.com/varunrana0/OnBoarding_Steps_Form",
-	},
 ];
 
-export const techs = [
-	"html",
-	"css",
-	"javascript",
-	"typescript",
-	"styled-components",
-	"material-ui",
-	"tailwindcss",
-	"chakra-ui",
-	"codux",
-	"node.js",
-	"react.js",
-	"next.js",
-	"react-query",
-	"postgress",
-	"supabase",
-	"mongoDB",
-	"axios",
-	"git",
-	"github",
-	"jest",
-	"playwright",
-	"react-table",
-];
+export const technologies = {
+	"Tech's I Know": [
+		"chakra ui",
+		"CI/CD",
+		"codux",
+		"css",
+		"formik",
+		"git",
+		"github",
+		"html",
+		"htmx",
+		"javascript",
+		"jest",
+		"material ui",
+		"mongoDB",
+		"next.js",
+		"node.js",
+		"playwright",
+		"react hook form",
+		"react.js",
+		"react query",
+		"react table",
+		"styled components",
+		"supabase",
+		"tailwindcss",
+		"typescript",
+		"upstash",
+		"yup",
+		"zod",
+	],
+	"Tech's I'm Currently Working With": [
+		"axios",
+		"chakra ui",
+		"formik",
+		"next.js",
+		"react.js",
+		"react query",
+		"react table",
+		"react hook form",
+		"supabase",
+		"typescript",
+		"upstash",
+		"yup",
+	],
+	"Learning Now": ["Htmx", "Bun", "Go", "trpc", "aws"],
+};

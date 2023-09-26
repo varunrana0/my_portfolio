@@ -5,7 +5,6 @@ export const Container = styled.div`
 	width: 100%;
 	border-bottom: 4px solid black;
 	background-color: #bceb66;
-	/* background-color: #252525; */
 `;
 
 export const InnerContainer = styled.div`

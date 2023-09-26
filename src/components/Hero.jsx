@@ -1,6 +1,6 @@
 import CustomLink from "common/customLink/CustomLink";
 import { Text, Container, Info, InnerContainer, Bio, Socials } from "./hero/hero.style";
-import { AboutMeSvg, GitHubIcon, InstagramIcon, LinkedinIcon, TwitterIcon } from "./icons/icons";
+import { AboutMeSvg, GitHubIcon, LinkedinIcon } from "./icons/icons";
 
 function Hero() {
 	return (
@@ -25,12 +25,6 @@ function Hero() {
 					</CustomLink>
 					<CustomLink href="https://linkedin.com/in/varunranaa">
 						<LinkedinIcon />
-					</CustomLink>
-					<CustomLink href="https://twitter.com/Varun_Ranaa">
-						<TwitterIcon />
-					</CustomLink>
-					<CustomLink href="https://www.instagram.com/varun8048/">
-						<InstagramIcon />
 					</CustomLink>
 				</Socials>
 			</InnerContainer>

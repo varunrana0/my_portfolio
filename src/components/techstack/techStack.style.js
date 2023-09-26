@@ -2,67 +2,55 @@ import styled from "styled-components";
 
 export const Wrapper = styled.section`
 	width: 100%;
-	/* background-color: #14141a; */
-	background-color: #090909;
+	padding: 1rem 5rem 5rem;
+	background-color: #edede9;
 	overflow: hidden;
 	border-bottom: 4px solid black;
-`;
-
-export const Heading = styled.h1`
-	font-weight: 800;
-	text-align: center;
-	font-size: 60px;
-	width: 100%;
-	padding-top: 2rem;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	-webkit-text-stroke: 2px white;
-	-webkit-text-fill-color: transparent;
-	text-transform: capitalize;
-	white-space: nowrap;
 
 	@media screen and (max-width: 500px) {
-		font-size: 50px;
+		padding: 1rem 1rem 4rem 1rem;
 	}
+`;
+
+export const Container = styled.div`
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
 `;
 
 export const Grid = styled.div`
 	display: flex;
-	align-items: center;
 	flex-wrap: wrap;
-	white-space: nowrap;
-	gap: 5px;
+	align-items: center;
+	justify-content: center;
+	gap: 4px;
 	background-color: transparent;
-	max-width: 1120px;
-	margin: 2rem auto 0;
+	max-width: 1024px;
+	width: 100%;
+	margin: auto;
 	font-family: "Roobert", sans-serif;
-	text-transform: uppercase;
-	font-weight: 700;
-	padding: 40px 20px;
-	padding-bottom: 50px;
-
-	@media screen and (max-width: 500px) {
-		justify-content: center;
-	}
+	overflow: hidden;
 `;
 
 export const Box = styled.div`
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-weight: 500;
+	background-color: transparent;
+	font-weight: 600;
+	letter-spacing: 0.809px;
+	width: fit-content;
 	text-transform: capitalize;
 	border-radius: 5px;
-	cursor: pointer;
-	width: fit-content;
-	padding: 0.5rem 2rem;
-	border: 4px solid black;
-	box-shadow: 0px 0px 5px ${(props) => props.backgroundColor};
-	color: white;
-	border: 1px solid #333;
+	padding: 0.5rem 1rem;
+	color: black;
+	border: 1px solid #111;
+`;
 
-	@media screen and (max-width: 500px) {
-		margin: 5px;
-	}
+export const Title = styled.p`
+	color: black;
+
+	font-size: 2rem;
+	font-weight: 700;
+	margin-top: 4rem;
+	text-align: center;
 `;

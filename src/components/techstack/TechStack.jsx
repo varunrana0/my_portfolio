@@ -1,36 +1,38 @@
-import { techs } from "projects";
-import React, { useState, useEffect, useMemo } from "react";
-import { Heading, Wrapper, Box, Grid } from "./techStack.style";
+import { technologies } from "projects";
+import { useMemo } from "react";
+import { Wrapper, Box, Grid, Title, Container } from "./techStack.style";
 
-const generateAdvancedColor = () => {
-	const hue = Math.floor(Math.random() * 360);
-	const saturation = Math.floor(Math.random() * 100);
-	const lightness = Math.floor(Math.random() * 50) + 50;
-	return `hsl(${hue}, ${saturation}%, ${lightness}%)`;
-};
+// const generateAdvancedColor = () => {
+// 	const hue = Math.floor(Math.random() * 360);
+// 	const saturation = Math.floor(Math.random() * 100);
+// 	const lightness = Math.floor(Math.random() * 50) + 50;
+// 	return `hsl(${hue}, ${saturation}%, ${lightness}%)`;
+// };
 
 const TechList = () => {
-	const tech = useMemo(() => techs, []);
-	const [backgroundColors, setBackgroundColors] = useState([]);
+	const tech = useMemo(() => technologies, []);
+	// const [backgroundColors, setBackgroundColors] = useState([]);
 
-	useEffect(() => {
-		const colors = [];
-		for (let i = 0; i < tech.length; i++) {
-			colors.push(generateAdvancedColor());
-		}
-		setBackgroundColors(colors);
-	}, [tech]);
+	// useEffect(() => {
+	// 	const colors = [];
+	// 	for (let i = 0; i < tech.length; i++) {
+	// 		colors.push(generateAdvancedColor());
+	// 	}
+	// 	setBackgroundColors(colors);
+	// }, [tech]);
 
 	return (
 		<Wrapper>
-			<Heading>Tech Stack</Heading>
-			<Grid>
-				{tech.map((item, index) => (
-					<Box key={index} backgroundColor={backgroundColors[index]}>
-						{item}
-					</Box>
-				))}
-			</Grid>
+			{Object.entries(tech).map(([categoryName, categoryItems]) => (
+				<Container key={categoryName}>
+					<Title>{categoryName}</Title>
+					<Grid>
+						{categoryItems.map((tech, techIndex) => (
+							<Box key={techIndex}>{tech}</Box>
+						))}
+					</Grid>
+				</Container>
+			))}
 		</Wrapper>
 	);
 };
