@@ -5,6 +5,8 @@ import pomodroTimer from "./assets/projects-img/pomodrotimer.png";
 import portfolio from "./assets/projects-img/portfolio_project.webp";
 import portfolioOne from "./assets/projects-img/portfolio.png";
 import onboardingSteps from "./assets/projects-img/onBoarding.png";
+import contentLayerImage from "./assets/projects-img/contentlayer_blog.webp";
+import triviaGameQuiz from "./assets/projects-img/trivia_game.webp";
 
 export const projects = [
 	{
@@ -31,7 +33,22 @@ export const projects = [
 		desc: "A Simple, Effective and Easier way to find any gitHub user Repository. just enter user login name and see their repo name, when they joined github and more.",
 		sourceCode: "https://github.com/varunrana0/GitHub-User-Finder",
 	},
-
+	{
+		name: "Blogs with nextjs and contentlayer",
+		url: "https://contentlayers-blogs.vercel.app/",
+		projectImg: contentLayerImage,
+		skills: ["Nextjs", "Contentlayer", "TailwindCss", "Git", "GitHub"],
+		desc: "Quickstart Guide: Setting Up a Blog with Next.js and ContentLayer",
+		sourceCode: "https://github.com/varunrana0/contentlayers-blogs",
+	},
+	{
+		name: "Trivia game quiz with context api",
+		url: "https://trivia-gaming-quiz-with-context-api.vercel.app/",
+		projectImg: triviaGameQuiz,
+		skills: ["Reactjs", "Context API", "TailwindCss", "Git", "GitHub"],
+		desc: "Trivia Quiz game with react and context api.",
+		sourceCode: "https://github.com/varunrana0/trivia_gaming_quiz_with_contextAPI",
+	},
 	{
 		name: "pomodro timer app",
 		url: "https://pomodrotimer.netlify.app",
@@ -64,7 +81,6 @@ export const projects = [
 		desc: "A Simple, Effective and Easier way to get hired by the top companies is by showing them your skills as well a good portolio helps more.",
 		sourceCode: "https://github.com/varunrana0/PortFolio-Website",
 	},
-
 	{
 		name: "Elite Vibes Management Company",
 		url: "https://elitevibes.in",
@@ -88,7 +104,7 @@ export const projects = [
 ];
 
 export const technologies = {
-	"Tech's I Know": [
+	"Tech I Know": [
 		"chakra ui",
 		"CI/CD",
 		"codux",
@@ -117,7 +133,7 @@ export const technologies = {
 		"yup",
 		"zod",
 	],
-	"Tech's I'm Currently Working With": [
+	"Tech I'm Currently Working With": [
 		"axios",
 		"chakra ui",
 		"formik",

@@ -46,11 +46,6 @@ export const Box = styled.a`
 	border: 1px solid black;
 	border-radius: 20px;
 	overflow: hidden;
-
-	&:hover {
-		transform: scale(1.02);
-		transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-	}
 `;
 
 export const Image = styled.img`
@@ -58,4 +53,9 @@ export const Image = styled.img`
 	width: 100%;
 	object-fit: cover;
 	resize: none;
+
+	&:hover {
+		transform: scale(1.05);
+		transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	}
 `;
