@@ -147,5 +147,5 @@ export const technologies = {
 		"upstash",
 		"yup",
 	],
-	"Learning Now": ["Htmx", "Bun", "Go", "trpc", "aws"],
+	"Learning Now": ["contentlayer"],
 };
