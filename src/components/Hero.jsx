@@ -1,6 +1,7 @@
 import CustomLink from "common/customLink/CustomLink";
 import { Text, Container, Info, InnerContainer, Bio, Socials } from "./hero/hero.style";
 import { AboutMeSvg, GitHubIcon, LinkedinIcon } from "./icons/icons";
+import { AiOutlineWhatsApp } from "react-icons/ai";
 
 function Hero() {
 	return (
@@ -25,6 +26,9 @@ function Hero() {
 					</CustomLink>
 					<CustomLink href="https://linkedin.com/in/varunranaa">
 						<LinkedinIcon />
+					</CustomLink>
+					<CustomLink href="https://wa.me/7082765880">
+						<AiOutlineWhatsApp />
 					</CustomLink>
 				</Socials>
 			</InnerContainer>
