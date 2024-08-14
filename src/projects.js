@@ -4,6 +4,7 @@ import eliteVibes from "./assets/projects-img/elite-vibes.webp";
 import pomodroTimer from "./assets/projects-img/pomodrotimer.png";
 import portfolio from "./assets/projects-img/portfolio_project.webp";
 import portfolioOne from "./assets/projects-img/portfolio.png";
+import portfolioTwo from "./assets/projects-img/portfolio.webp";
 import onboardingSteps from "./assets/projects-img/onBoarding.png";
 import contentLayerImage from "./assets/projects-img/contentlayer_blog.webp";
 import triviaGameQuiz from "./assets/projects-img/trivia_game.webp";
@@ -11,12 +12,20 @@ import triviaGameQuiz from "./assets/projects-img/trivia_game.webp";
 export const projects = [
 	{
 		name: "portfolio two",
-		url: "https://varunrana.info",
+		url: "https://varunrana.vercel.app",
 		projectImg: portfolio,
 		skills: ["ReactJs", "TailwindCss", "Git", "GitHub"],
 		desc: "A Simple, Effective and Easier way to get hired by the top companies is by showing them your skills as well a good portolio helps more.",
 		sourceCode: "https://github.com/varunrana0/my_portfolio",
 	},
+	{
+	        name: "Portfolio V2",
+	        url: "https://vnr.vercel.app",
+	        projectImg: portfolioTwo,
+	        skills: ["ReactJs", "Tailwind Css", "Git", "GitHub"],
+	        desc: "A Simple, Effective and Easier way to get hired by the top companies is by showing them your skills as well a good portolio helps more.",
+	        sourceCode: "https://github.com/varunrana0/my_portfolio",
+    	},
 	{
 		name: "Colors Finder",
 		url: "https://color-finder-v2.vercel.app/",
