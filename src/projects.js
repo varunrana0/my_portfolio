@@ -11,7 +11,7 @@ import triviaGameQuiz from "./assets/projects-img/trivia_game.webp";
 
 export const projects = [
 	{
-		name: "portfolio two",
+		name: "portfolio v2",
 		url: "https://varunrana.vercel.app",
 		projectImg: portfolio,
 		skills: ["ReactJs", "TailwindCss", "Git", "GitHub"],
